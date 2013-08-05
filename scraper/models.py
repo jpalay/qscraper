@@ -7,7 +7,7 @@ class Rating(models.Model):
     object_id = models.PositiveIntegerField()
     rated_object = generic.GenericForeignKey('content_type', 'object_id')
 
-    category      = models.CharField(max_length=512)
+    category      = models.CharField(max_length=1024)
     value       = models.DecimalField(decimal_places=2, max_digits=5, null=True)
     num_responses = models.PositiveIntegerField()
     ones          = models.IntegerField()
@@ -19,8 +19,11 @@ class Rating(models.Model):
     def __unicode__(self):
         return self.category + ": " + str(self.value)
 
+    # class Meta:
+    #     unique_together = ('object_id', 'category')
+
 class Field(models.Model):
-    abbreviation = models.CharField(max_length=255)
+    abbreviation = models.CharField(max_length=255, unique=True)
     name = models.CharField(max_length=255)
 
     def __unicode__(self):
@@ -32,8 +35,8 @@ class Field(models.Model):
 class Course(models.Model):
     field = models.ForeignKey(Field)
     number = models.CharField(max_length=128)
-    title = models.CharField(max_length=128)
-    course_id = models.IntegerField()
+    title = models.CharField(max_length=512)
+    course_id = models.IntegerField(unique=True)
     # cat_num = models.CharField(max_length=765)
     year = models.IntegerField()
     term = models.IntegerField()
@@ -50,6 +53,9 @@ class Course(models.Model):
     def reasons(self):
         return Reason.objects.filter(course=self)
 
+    def comments(self):
+        return Comment.objects.filter(course=self)
+
     #get the text representing this course's term
     def term_text(self):
         if self.term == 1:
@@ -63,7 +69,10 @@ class Comment(models.Model):
     comment = models.CharField(max_length=10000)
 
     def __unicode__(self):
-        return course.__unicode__()
+        return self.course.__unicode__()
+
+    # class Meta:
+    #     unique_together = ('course', 'comment')
 
 class Reason(models.Model):
     REASON_CHOICES = (
@@ -89,9 +98,13 @@ class Reason(models.Model):
 
     def __unicode__(self):
         return self.reason + ': ' + str(self.number)
+    
+    # class Meta:
+    #     unique_together = ('course', 'reason')
 
 class Instructor(models.Model):
     course = models.ForeignKey(Course)
+    # One prof_id per professor (not unique)
     prof_id = models.CharField(max_length=255)
     first = models.CharField(max_length=384)
     last = models.CharField(max_length=384)
@@ -99,4 +112,4 @@ class Instructor(models.Model):
     ratings = generic.GenericRelation(Rating)
 
     def __unicode__(self):
-        return self.first+' '+self.last
+        return self.first + ' ' + self.last
