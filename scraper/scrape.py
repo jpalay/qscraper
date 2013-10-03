@@ -298,6 +298,16 @@ def add_score_breakdown(opener, rating, histogram_url, course_id):
         rating['fours']  = 0 
         rating['fives']  = 0 
         return
+    if not HISTOGRAM_REGEX.findall(html)[0]:
+        os.remove(DATA_DIR + histogram_url)
+        log_error("Histogram regex failed to parse histogram " +\
+                  "(path: {0})".format(histogram_url), course_id)
+        rating['ones']   = 0 
+        rating['twos']   = 0 
+        rating['threes'] = 0 
+        rating['fours']  = 0 
+        rating['fives']  = 0 
+        return
     scores = HISTOGRAM_REGEX.findall(html)[0]
     log(str(map(lambda x: int(x), list(scores))))
     rating['ones']   = int(scores[0])
@@ -350,25 +360,38 @@ def save_course(course):
             field         = f,
             number        = course['number'],
             title         = course['title'],
-            course_id     = course['id'],
+        )
+        c.save()
+        log(log_msg + 'COURSE SAVED')
+    except DatabaseError as e:
+        log(str(e))
+        c = Course.objects.get(field=f, number=course['number'])
+        log(log_msg + 'COURSE ALREADY EXISTS')
+
+    cinst = None
+    log_msg = 'SAVING COURSE INSTANCE... '
+    try:
+        cinst = CourseInstance(
+            course        = c,
+            qcourse_id     = course['id'],
             year          = course['year'],
             term          = course['term'],
             enrollment    = course['enrollment'],
             evaluations   = course['evaluations'],
             response_rate = course['response_rate']
         )
-        c.save()
-        log(log_msg + 'COURSE SAVED')
+        cinst.save()
+        log(log_msg + 'COURSE INSTANCE SAVED')
     except DatabaseError as e:
         log(str(e))
-        c = Course.objects.filter(course_id=course['id'])[0]
-        log(log_msg + 'COURSE ALREADY EXISTS')
+        cinst = Course.objects.get(course_id=course['id'])
+        log(log_msg + 'COURSE INSTANCE ALREADY EXISTS')
 
     # STEP 3: Save Comments
     for comment in course['comments']:
         log_msg = 'SAVING COMMENT... '
         try:
-            Comment(course=c, comment=comment).save()
+            Comment(course=cinst, comment=comment).save()
             log(log_msg + 'COMMENT SAVED')
         except DatabaseError as e:
             log(str(e))
@@ -376,26 +399,38 @@ def save_course(course):
 
     # Save Ratings
     for r in course['ratings']:
-        save_rating(c, r)
+        save_rating(cinst, r)
             
     # Save Profs
     for p in course['profs']:
         log_msg = 'SAVING INSTRUCTOR {0} {1} ({2})... '.format(p['first'], p['last'], p['prof_id'])
         try:
             i = Instructor(
-                course = c,
                 prof_id = p['prof_id'],
                 first = p['first'],
                 last = p['last']
             )
             i.save()
             log(log_msg + 'INSTRUCTOR SAVED')
-        except DatabaseErorr as e:
+        except DatabaseError as e:
             log(str(e))
             log(log_msg + 'INSTRUCTOR ALREADY EXISTS')
             i = Instructor.objects.filter(course=c, prof_id=p['prof_id'])[0]
+        log_msg = 'SAVING INSTRUCTOR COURSE INSTANCE RELATION... ' 
+        try:
+            irel = InstructorCourseInstanceRelation(
+                course_instance = cinst,
+                instructor = i,
+            )
+            irel.save()
+            log(log_msg + 'INSTRUCTOR COURSE INSTANCE RELATION SAVED')
+        except DatabaseError as e:
+            log(str(e))
+            log(log_msg + 'INSTRUCTOR COURSE INSTANCE RELATION ALREADY EXISTS')
+            irel = InstructorCourseInstanceRelation.objects.get(
+                course_instance=cinst, instructor=i)
         for r in p['ratings']:
-            save_rating(i, r)
+            save_rating(irel, r)
 
     reasons_dict = {
         'Elective':
@@ -421,7 +456,7 @@ def save_course(course):
     for r in course['reasons'].keys():
         log_msg = 'SAVING REASON {0}... '.format(reasons_dict[r])
         try:
-            Reason(course=c, reason=reasons_dict[r], 
+            Reason(course=cinst, reason=reasons_dict[r], 
                 number=course['reasons'][r]).save()
             log(log_msg + 'REASON SAVED')
         except DatabaseError as e:
@@ -472,11 +507,13 @@ def get_data_from_path(opener, path):
 
 def truncate_db():
     Rating.objects.all().delete()
-    Field.objects.all().delete()
-    Course.objects.all().delete()
-    Comment.objects.all().delete()
     Reason.objects.all().delete()
+    Comment.objects.all().delete()
+    InstructorCourseInstanceRelation.objects.all().delete()
     Instructor.objects.all().delete()
+    CourseInstance.objects.all().delete()
+    Course.objects.all().delete()
+    Field.objects.all().delete()
 
 def clear_logs():
     for log_name in [OUTPUT_LOG, ERROR_LOG, WARNING_LOG]:
