@@ -7,10 +7,11 @@
 
 from django.db import DatabaseError, IntegrityError
 from lxml import etree
-import re
+
 import os
-from pprint import pprint
+import re
 from StringIO import StringIO
+import sys
 import urllib2
 
 from models import *
@@ -289,24 +290,14 @@ def parse_reasons(table):
 def add_score_breakdown(opener, rating, histogram_url, course_id):
     html = get_data_from_path(opener, histogram_url)
     if FAILED_HISTOGRAM_REGEX.findall(html):
-        os.remove(DATA_DIR + histogram_url)
+        uncache(path)
         log_error("Score breakdown page unexpectedly displays no breakdown " +\
                   "(path: {0})".format(histogram_url), course_id)
-        rating['ones']   = 0 
-        rating['twos']   = 0 
-        rating['threes'] = 0 
-        rating['fours']  = 0 
-        rating['fives']  = 0 
         return
     if not HISTOGRAM_REGEX.findall(html)[0]:
         os.remove(DATA_DIR + histogram_url)
         log_error("Histogram regex failed to parse histogram " +\
                   "(path: {0})".format(histogram_url), course_id)
-        rating['ones']   = 0 
-        rating['twos']   = 0 
-        rating['threes'] = 0 
-        rating['fours']  = 0 
-        rating['fives']  = 0 
         return
     scores = HISTOGRAM_REGEX.findall(html)[0]
     log(str(map(lambda x: int(x), list(scores))))
@@ -496,7 +487,7 @@ def get_data_from_path(opener, path):
 
         # Check to see if cookie is still good
         if PIN_LOGIN_REGEX.findall(contents):
-            raise ValueError('Cookie no longer valid')
+            log_error('Cookie no longer valid', 'GENERAL')
 
         # Save contents
         f = open(DATA_DIR + path, 'w')
@@ -504,6 +495,12 @@ def get_data_from_path(opener, path):
         f.close()
         
     return contents
+
+def uncache(path):
+    try:
+        os.remove(DATA_DIR + path)
+    except OSError:
+        log_warning('Tried to delete nonexistant file', 'GENERAL')
 
 def truncate_db():
     Rating.objects.all().delete()
@@ -531,7 +528,8 @@ def log_error(msg, course_id):
         f.write(msg + '\n') 
 
 def log_warning(msg, course_id):
-    msg = 'WARNING: ' + str(course_id) + ': ' + msg
+    msg = 'WARNING: ' + str(course_id) + ': ' + msg + '; EXITING NOW'
     log(msg)
     with open(LOG_DIR + WARNING_LOG, 'a') as f:
         f.write(msg + '\n') 
+    sys.exit(1)
