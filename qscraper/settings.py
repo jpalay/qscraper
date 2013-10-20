@@ -155,3 +155,11 @@ LOGGING = {
         },
     }
 }
+
+FROM_EMAIL = ''
+ALERT_RECIPIENTS = []
+
+try:
+    from local_settings import *
+except:
+    pass
