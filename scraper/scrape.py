@@ -549,6 +549,9 @@ def log_error(msg, course_id):
     log(msg)
     with open(LOG_DIR + ERROR_LOG, 'a') as f:
         f.write(msg + '\n') 
+    mail.send_mail('scraper failed', EMAIL_MESSAGE.format(msg), 
+        settings.FROM_EMAIL, settings.ALERT_RECIPIENTS, fail_silently=True)
+
 
 def log_warning(msg, course_id):
     msg = 'WARNING: ' + str(course_id) + ': ' + msg
