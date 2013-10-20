@@ -6,6 +6,7 @@
 ################################################################################
 
 from django.db import DatabaseError, IntegrityError
+from django.core import mail
 from lxml import etree
 
 import os
@@ -15,6 +16,7 @@ import sys
 import urllib2
 
 from models import *
+import settings
 
 # Set up some constants
 DATA_DIR = 'scraper/data/'
@@ -42,6 +44,13 @@ SUMMARY_STATS_REGEX = re.compile(r'Enrollment:\s*\n*\s*(\d*)\s*\n*\s*' +
     'Response Rate:\s*\n*\s*([\d\.]*)%\s*\n*\s*')
 NO_COMMENTS_REGEX = re.compile(r'The response\(s\) to this question are not' + 
     ' available\. This is due to one of the following reasons\:')
+
+EMAIL_MESSAGE = '''Your scraper failed :(.  Here's the error message: 
+{0}
+Enjoy your day!
+Love, 
+
+Josh'''
 
 # Main scraping script.  Creates opener, iterates through years/terms, 
 # and calls scrape_course_list on each department listed
@@ -293,11 +302,15 @@ def add_score_breakdown(opener, rating, histogram_url, course_id):
         uncache(path)
         log_error("Score breakdown page unexpectedly displays no breakdown " +\
                   "(path: {0})".format(histogram_url), course_id)
+        time.sleep(600) # wait 10 minutes before trying again
+        add_score_breakdown(opener, rating, histogram_url, course_id)
         return
     if not HISTOGRAM_REGEX.findall(html)[0]:
-        os.remove(DATA_DIR + histogram_url)
+        uncache(path)
         log_error("Histogram regex failed to parse histogram " +\
                   "(path: {0})".format(histogram_url), course_id)
+        time.sleep(600) # wait 10 minutes before trying again
+        add_score_breakdown(opener, rating, histogram_url, course_id)
         return
     scores = HISTOGRAM_REGEX.findall(html)[0]
     log(str(map(lambda x: int(x), list(scores))))
@@ -488,6 +501,10 @@ def get_data_from_path(opener, path):
         # Check to see if cookie is still good
         if PIN_LOGIN_REGEX.findall(contents):
             log_error('Cookie no longer valid', 'GENERAL')
+            mail.send_mail('scraper failed :(', 'Your cookie expried :(', 
+                settings.FROM_EMAIL, settings.ALERT_RECIPIENTS, fail_silently=True)
+            sys.exit(1)
+            return
 
         # Save contents
         f = open(DATA_DIR + path, 'w')
@@ -522,14 +539,13 @@ def log(msg):
         f.write(msg + '\n') 
 
 def log_error(msg, course_id):
-    msg = 'ERROR: ' + str(course_id) + ': ' + msg
+    msg = 'ERROR: ' + str(course_id) + ': ' + msg # + '; EXITING NOW'
     log(msg)
     with open(LOG_DIR + ERROR_LOG, 'a') as f:
         f.write(msg + '\n') 
 
 def log_warning(msg, course_id):
-    msg = 'WARNING: ' + str(course_id) + ': ' + msg + '; EXITING NOW'
+    msg = 'WARNING: ' + str(course_id) + ': ' + msg
     log(msg)
     with open(LOG_DIR + WARNING_LOG, 'a') as f:
         f.write(msg + '\n') 
-    sys.exit(1)
