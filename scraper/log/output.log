@@ -1,0 +1,1876 @@
+
+1. SCRAPING AFRAMER 11: Introduction to African Studies (31050)
+PARSING NEW TABLE
+Course Overall: 4.0
+[0, 0, 3, 6, 3]
+Materials: 4.15
+[0, 0, 2, 7, 4]
+Assignments: 4.38
+[0, 0, 1, 6, 6]
+Feedback: 4.82
+[0, 0, 0, 2, 9]
+Section: 4.83
+[0, 0, 0, 2, 10]
+PARSING NEW TABLE
+Workload: 1.85
+[4, 7, 2, 0, 0]
+PARSING NEW TABLE
+I found the assigned readings interesting and pertinent to the topics covered in class.: 4.38
+[0, 0, 1, 6, 6]
+The midterm exam required me to demonstrate critical thinking skills and encouraged me to solve real problems in this field.: 4.62
+[0, 0, 1, 3, 9]
+PARSING NEW TABLE
+Difficulty: [0, 5, 8, 0, 0]
+PARSING REASONS
+Elective: 2
+Concentration or Department Requirement: 6
+Secondary Field or Language Citation Requirement: 4
+Undergraduate Core or General Education Requirement: 3
+Expository Writing Requirement: 0
+Foreign Language Requirement: 0
+Pre-Med Requirement: 0
+GETTING COMMENTS
+WARNING: 31050: No comments found for course taught after 2007
+FOUND INSTRUCTOR Jacob Olupona (67ada1528672ca0b575f45e4f43615ff)
+PARSING NEW TABLE
+Instructor Overall: 3.62
+[0, 1, 5, 5, 2]
+Effective Lectures or Presentations: 3.85
+[0, 1, 2, 8, 2]
+Accessible Outside Class: 3.33
+[0, 2, 5, 4, 1]
+Generates Enthusiasm: 3.85
+[0, 0, 4, 7, 2]
+Facilitates Discussion & Encourages Participation: 4.15
+[0, 1, 3, 2, 7]
+SAVING FIELD AFRAMER... FIELD SAVED
+SAVING COURSE... COURSE SAVED
+SAVING COURSE INSTANCE... COURSE INSTANCE SAVED
+SAVING RATING Course Overall... RATING SAVED
+SAVING RATING Materials... RATING SAVED
+SAVING RATING Assignments... RATING SAVED
+SAVING RATING Feedback... RATING SAVED
+SAVING RATING Section... RATING SAVED
+SAVING RATING Workload... RATING SAVED
+SAVING RATING I found the assigned readings interesting and pertinent to the topics covered in class.... RATING SAVED
+SAVING RATING The midterm exam required me to demonstrate critical thinking skills and encouraged me to solve real problems in this field.... RATING SAVED
+SAVING RATING Difficulty... RATING SAVED
+SAVING INSTRUCTOR Jacob Olupona (67ada1528672ca0b575f45e4f43615ff)... INSTRUCTOR SAVED
+SAVING INSTRUCTOR COURSE INSTANCE RELATION... INSTRUCTOR COURSE INSTANCE RELATION SAVED
+SAVING RATING Instructor Overall... RATING SAVED
+SAVING RATING Effective Lectures or Presentations... RATING SAVED
+SAVING RATING Accessible Outside Class... RATING SAVED
+SAVING RATING Generates Enthusiasm... RATING SAVED
+SAVING RATING Facilitates Discussion & Encourages Participation... RATING SAVED
+SAVING REASON Pre-Med Requirement... REASON SAVED
+SAVING REASON Concentration or Department Requirement... REASON SAVED
+SAVING REASON Expository Writing Requirement... REASON SAVED
+SAVING REASON Secondary Field or Language Citation Requirement... REASON SAVED
+SAVING REASON Elective... REASON SAVED
+SAVING REASON Undergraduate Core or General Education Requirement... REASON SAVED
+SAVING REASON Foreign Language Requirement... REASON SAVED
+
+2. SCRAPING AFRAMER 20: Introduction to African Languages and Cultures (31505)
+PARSING NEW TABLE
+Course Overall: 3.59
+[2, 3, 19, 14, 11]
+Materials: 3.67
+[2, 5, 13, 15, 13]
+Assignments: 3.78
+[1, 5, 10, 21, 12]
+Feedback: 3.94
+[1, 2, 13, 16, 17]
+Section: 4.14
+[0, 4, 8, 14, 23]
+PARSING NEW TABLE
+Workload: 1.59
+[24, 21, 4, 0, 0]
+PARSING NEW TABLE
+Difficulty: [4, 21, 24, 0, 0]
+PARSING REASONS
+Elective: 8
+Concentration or Department Requirement: 4
+Secondary Field or Language Citation Requirement: 10
+Undergraduate Core or General Education Requirement: 37
+Expository Writing Requirement: 0
+Foreign Language Requirement: 0
+Pre-Med Requirement: 0
+GETTING COMMENTS
+GETTING COMMENTS WITH &qid=1487
+FOUND INSTRUCTOR John M Mugane (8991604883a4ca2601298f8ea013b389)
+PARSING NEW TABLE
+Instructor Overall: 3.61
+[2, 7, 8, 23, 9]
+Effective Lectures or Presentations: 3.24
+[3, 13, 13, 9, 11]
+Accessible Outside Class: 4.02
+[1, 3, 8, 10, 18]
+Generates Enthusiasm: 4.33
+[1, 1, 8, 9, 29]
+Facilitates Discussion & Encourages Participation: 4.1
+[1, 3, 7, 11, 20]
+(1062, "Duplicate entry 'AFRAMER' for key 'abbreviation'")
+SAVING FIELD AFRAMER... FIELD ALREADY EXISTS
+SAVING COURSE... COURSE SAVED
+SAVING COURSE INSTANCE... COURSE INSTANCE SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING RATING Course Overall... RATING SAVED
+SAVING RATING Materials... RATING SAVED
+SAVING RATING Assignments... RATING SAVED
+SAVING RATING Feedback... RATING SAVED
+SAVING RATING Section... RATING SAVED
+SAVING RATING Workload... RATING SAVED
+SAVING RATING Difficulty... RATING SAVED
+SAVING INSTRUCTOR John M Mugane (8991604883a4ca2601298f8ea013b389)... INSTRUCTOR SAVED
+SAVING INSTRUCTOR COURSE INSTANCE RELATION... INSTRUCTOR COURSE INSTANCE RELATION SAVED
+SAVING RATING Instructor Overall... RATING SAVED
+SAVING RATING Effective Lectures or Presentations... RATING SAVED
+SAVING RATING Accessible Outside Class... RATING SAVED
+SAVING RATING Generates Enthusiasm... RATING SAVED
+SAVING RATING Facilitates Discussion & Encourages Participation... RATING SAVED
+SAVING REASON Pre-Med Requirement... REASON SAVED
+SAVING REASON Concentration or Department Requirement... REASON SAVED
+SAVING REASON Expository Writing Requirement... REASON SAVED
+SAVING REASON Secondary Field or Language Citation Requirement... REASON SAVED
+SAVING REASON Elective... REASON SAVED
+SAVING REASON Undergraduate Core or General Education Requirement... REASON SAVED
+SAVING REASON Foreign Language Requirement... REASON SAVED
+
+3. SCRAPING AFRAMER 90r: African Language Tutorials (32108)
+PARSING NEW TABLE
+Course Overall: 3.91
+[0, 1, 2, 5, 3]
+Materials: 3.82
+[1, 0, 3, 3, 4]
+Assignments: 3.91
+[0, 1, 3, 3, 4]
+Feedback: 4.09
+[0, 1, 0, 7, 3]
+Section: 4.6
+[0, 0, 0, 4, 6]
+PARSING NEW TABLE
+Workload: 1.55
+[6, 4, 1, 0, 0]
+PARSING NEW TABLE
+Contributed to Speaking Language: 4.64
+[0, 0, 0, 4, 7]
+Contributed to Listening Comprehension: 4.55
+[0, 0, 1, 3, 7]
+Contributed to Reading Language: 4.82
+[0, 0, 0, 2, 9]
+Contributed to Writing Language: 4.82
+[0, 0, 0, 2, 9]
+Contributed to Understanding Culture: 4.27
+[0, 1, 0, 5, 5]
+PARSING NEW TABLE
+Difficulty: [1, 5, 4, 1, 0]
+PARSING REASONS
+Elective: 10
+Concentration or Department Requirement: 0
+Secondary Field or Language Citation Requirement: 0
+Undergraduate Core or General Education Requirement: 0
+Expository Writing Requirement: 1
+Foreign Language Requirement: 2
+Pre-Med Requirement: 1
+GETTING COMMENTS
+GETTING COMMENTS WITH &qid=1487
+WARNING: 32108: Course has no instructors
+(1062, "Duplicate entry 'AFRAMER' for key 'abbreviation'")
+SAVING FIELD AFRAMER... FIELD ALREADY EXISTS
+SAVING COURSE... COURSE SAVED
+SAVING COURSE INSTANCE... COURSE INSTANCE SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING RATING Course Overall... RATING SAVED
+SAVING RATING Materials... RATING SAVED
+SAVING RATING Assignments... RATING SAVED
+SAVING RATING Feedback... RATING SAVED
+SAVING RATING Section... RATING SAVED
+SAVING RATING Workload... RATING SAVED
+SAVING RATING Contributed to Speaking Language... RATING SAVED
+SAVING RATING Contributed to Listening Comprehension... RATING SAVED
+SAVING RATING Contributed to Reading Language... RATING SAVED
+SAVING RATING Contributed to Writing Language... RATING SAVED
+SAVING RATING Contributed to Understanding Culture... RATING SAVED
+SAVING RATING Difficulty... RATING SAVED
+SAVING REASON Pre-Med Requirement... REASON SAVED
+SAVING REASON Concentration or Department Requirement... REASON SAVED
+SAVING REASON Expository Writing Requirement... REASON SAVED
+SAVING REASON Secondary Field or Language Citation Requirement... REASON SAVED
+SAVING REASON Elective... REASON SAVED
+SAVING REASON Undergraduate Core or General Education Requirement... REASON SAVED
+SAVING REASON Foreign Language Requirement... REASON SAVED
+
+4. SCRAPING AFRAMER 90r.a: Amharic (32109)
+PARSING NEW TABLE
+Course Overall: 4.0
+[0, 0, 1, 0, 1]
+Materials: 4.5
+[0, 0, 0, 1, 1]
+Assignments: 4.0
+[0, 0, 1, 0, 1]
+Feedback: 4.0
+[0, 0, 1, 0, 1]
+Section: 5.0
+[0, 0, 0, 0, 1]
+PARSING NEW TABLE
+Workload: 2.0
+[1, 0, 1, 0, 0]
+PARSING NEW TABLE
+Contributed to Speaking Language: 4.5
+[0, 0, 0, 1, 1]
+Contributed to Listening Comprehension: 4.5
+[0, 0, 0, 1, 1]
+Contributed to Reading Language: 4.5
+[0, 0, 0, 1, 1]
+Contributed to Writing Language: 5.0
+[0, 0, 0, 0, 2]
+Contributed to Understanding Culture: 4.5
+[0, 0, 0, 1, 1]
+PARSING NEW TABLE
+Difficulty: [0, 0, 2, 0, 0]
+PARSING REASONS
+Elective: 1
+Concentration or Department Requirement: 1
+Secondary Field or Language Citation Requirement: 0
+Undergraduate Core or General Education Requirement: 0
+Expository Writing Requirement: 0
+Foreign Language Requirement: 0
+Pre-Med Requirement: 0
+GETTING COMMENTS
+GETTING COMMENTS WITH &qid=1487
+FOUND INSTRUCTOR John M Mugane (8991604883a4ca2601298f8ea013b389)
+PARSING NEW TABLE
+Instructor Overall: 5.0
+[0, 0, 0, 0, 1]
+Effective Lectures or Presentations: None
+Accessible Outside Class: 5.0
+[0, 0, 0, 0, 1]
+Generates Enthusiasm: 5.0
+[0, 0, 0, 0, 1]
+Facilitates Discussion & Encourages Participation: None
+(1062, "Duplicate entry 'AFRAMER' for key 'abbreviation'")
+SAVING FIELD AFRAMER... FIELD ALREADY EXISTS
+SAVING COURSE... COURSE SAVED
+SAVING COURSE INSTANCE... COURSE INSTANCE SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING RATING Course Overall... RATING SAVED
+SAVING RATING Materials... RATING SAVED
+SAVING RATING Assignments... RATING SAVED
+SAVING RATING Feedback... RATING SAVED
+SAVING RATING Section... RATING SAVED
+SAVING RATING Workload... RATING SAVED
+SAVING RATING Contributed to Speaking Language... RATING SAVED
+SAVING RATING Contributed to Listening Comprehension... RATING SAVED
+SAVING RATING Contributed to Reading Language... RATING SAVED
+SAVING RATING Contributed to Writing Language... RATING SAVED
+SAVING RATING Contributed to Understanding Culture... RATING SAVED
+SAVING RATING Difficulty... RATING SAVED
+SAVING INSTRUCTOR John M Mugane (8991604883a4ca2601298f8ea013b389)... INSTRUCTOR SAVED
+SAVING INSTRUCTOR COURSE INSTANCE RELATION... INSTRUCTOR COURSE INSTANCE RELATION SAVED
+SAVING RATING Instructor Overall... RATING SAVED
+SAVING RATING Accessible Outside Class... RATING SAVED
+SAVING RATING Generates Enthusiasm... RATING SAVED
+SAVING REASON Pre-Med Requirement... REASON SAVED
+SAVING REASON Concentration or Department Requirement... REASON SAVED
+SAVING REASON Expository Writing Requirement... REASON SAVED
+SAVING REASON Secondary Field or Language Citation Requirement... REASON SAVED
+SAVING REASON Elective... REASON SAVED
+SAVING REASON Undergraduate Core or General Education Requirement... REASON SAVED
+SAVING REASON Foreign Language Requirement... REASON SAVED
+
+5. SCRAPING AFRAMER 90r.b: Bamanakan (32110)
+PARSING NEW TABLE
+Course Overall: 3.0
+[0, 0, 1, 0, 0]
+Materials: 3.0
+[0, 0, 1, 0, 0]
+Assignments: 3.0
+[0, 0, 1, 0, 0]
+Feedback: 3.0
+[0, 0, 1, 0, 0]
+Section: None
+PARSING NEW TABLE
+Workload: 2.0
+[0, 1, 0, 0, 0]
+PARSING NEW TABLE
+Contributed to Speaking Language: 4.0
+[0, 0, 0, 1, 0]
+Contributed to Listening Comprehension: 4.0
+[0, 0, 0, 1, 0]
+Contributed to Reading Language: 4.0
+[0, 0, 0, 1, 0]
+Contributed to Writing Language: 4.0
+[0, 0, 0, 1, 0]
+Contributed to Understanding Culture: 5.0
+[0, 0, 0, 0, 1]
+PARSING NEW TABLE
+Difficulty: [0, 0, 1, 0, 0]
+PARSING REASONS
+Elective: 1
+Concentration or Department Requirement: 0
+Secondary Field or Language Citation Requirement: 1
+Undergraduate Core or General Education Requirement: 0
+Expository Writing Requirement: 0
+Foreign Language Requirement: 0
+Pre-Med Requirement: 0
+GETTING COMMENTS
+GETTING COMMENTS WITH &qid=1487
+FOUND INSTRUCTOR Boubacar Diakite (987b137fdae7a204d367cf9596842911)
+PARSING NEW TABLE
+Instructor Overall: 4.0
+[0, 0, 0, 1, 0]
+Effective Lectures or Presentations: 4.0
+[0, 0, 0, 1, 0]
+Accessible Outside Class: 3.0
+[0, 0, 1, 0, 0]
+Generates Enthusiasm: 4.0
+[0, 0, 0, 1, 0]
+Facilitates Discussion & Encourages Participation: None
+(1062, "Duplicate entry 'AFRAMER' for key 'abbreviation'")
+SAVING FIELD AFRAMER... FIELD ALREADY EXISTS
+SAVING COURSE... COURSE SAVED
+SAVING COURSE INSTANCE... COURSE INSTANCE SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING RATING Course Overall... RATING SAVED
+SAVING RATING Materials... RATING SAVED
+SAVING RATING Assignments... RATING SAVED
+SAVING RATING Feedback... RATING SAVED
+SAVING RATING Workload... RATING SAVED
+SAVING RATING Contributed to Speaking Language... RATING SAVED
+SAVING RATING Contributed to Listening Comprehension... RATING SAVED
+SAVING RATING Contributed to Reading Language... RATING SAVED
+SAVING RATING Contributed to Writing Language... RATING SAVED
+SAVING RATING Contributed to Understanding Culture... RATING SAVED
+SAVING RATING Difficulty... RATING SAVED
+SAVING INSTRUCTOR Boubacar Diakite (987b137fdae7a204d367cf9596842911)... INSTRUCTOR SAVED
+SAVING INSTRUCTOR COURSE INSTANCE RELATION... INSTRUCTOR COURSE INSTANCE RELATION SAVED
+SAVING RATING Instructor Overall... RATING SAVED
+SAVING RATING Effective Lectures or Presentations... RATING SAVED
+SAVING RATING Accessible Outside Class... RATING SAVED
+SAVING RATING Generates Enthusiasm... RATING SAVED
+SAVING REASON Pre-Med Requirement... REASON SAVED
+SAVING REASON Concentration or Department Requirement... REASON SAVED
+SAVING REASON Expository Writing Requirement... REASON SAVED
+SAVING REASON Secondary Field or Language Citation Requirement... REASON SAVED
+SAVING REASON Elective... REASON SAVED
+SAVING REASON Undergraduate Core or General Education Requirement... REASON SAVED
+SAVING REASON Foreign Language Requirement... REASON SAVED
+
+6. SCRAPING AFRAMER 90r.d: Chichewa (32111)
+PARSING NEW TABLE
+Course Overall: 5.0
+[0, 0, 0, 0, 2]
+Materials: 5.0
+[0, 0, 0, 0, 2]
+Assignments: 4.5
+[0, 0, 0, 1, 1]
+Feedback: 5.0
+[0, 0, 0, 0, 2]
+Section: 5.0
+[0, 0, 0, 0, 2]
+PARSING NEW TABLE
+Workload: 2.0
+[0, 2, 0, 0, 0]
+PARSING NEW TABLE
+Contributed to Speaking Language: 5.0
+[0, 0, 0, 0, 2]
+Contributed to Listening Comprehension: 4.5
+[0, 0, 0, 1, 1]
+Contributed to Reading Language: 4.5
+[0, 0, 0, 1, 1]
+Contributed to Writing Language: 4.5
+[0, 0, 0, 1, 1]
+Contributed to Understanding Culture: 3.5
+[0, 0, 1, 1, 0]
+PARSING NEW TABLE
+Difficulty: [0, 1, 1, 0, 0]
+PARSING REASONS
+Elective: 2
+Concentration or Department Requirement: 0
+Secondary Field or Language Citation Requirement: 1
+Undergraduate Core or General Education Requirement: 0
+Expository Writing Requirement: 0
+Foreign Language Requirement: 0
+Pre-Med Requirement: 0
+GETTING COMMENTS
+GETTING COMMENTS WITH &qid=1487
+FOUND INSTRUCTOR John M Mugane (8991604883a4ca2601298f8ea013b389)
+PARSING NEW TABLE
+Instructor Overall: 4.0
+[0, 0, 1, 0, 1]
+Effective Lectures or Presentations: None
+Accessible Outside Class: 5.0
+[0, 0, 0, 0, 1]
+Generates Enthusiasm: 5.0
+[0, 0, 0, 0, 1]
+Facilitates Discussion & Encourages Participation: None
+(1062, "Duplicate entry 'AFRAMER' for key 'abbreviation'")
+SAVING FIELD AFRAMER... FIELD ALREADY EXISTS
+SAVING COURSE... COURSE SAVED
+SAVING COURSE INSTANCE... COURSE INSTANCE SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING RATING Course Overall... RATING SAVED
+SAVING RATING Materials... RATING SAVED
+SAVING RATING Assignments... RATING SAVED
+SAVING RATING Feedback... RATING SAVED
+SAVING RATING Section... RATING SAVED
+SAVING RATING Workload... RATING SAVED
+SAVING RATING Contributed to Speaking Language... RATING SAVED
+SAVING RATING Contributed to Listening Comprehension... RATING SAVED
+SAVING RATING Contributed to Reading Language... RATING SAVED
+SAVING RATING Contributed to Writing Language... RATING SAVED
+SAVING RATING Contributed to Understanding Culture... RATING SAVED
+SAVING RATING Difficulty... RATING SAVED
+SAVING INSTRUCTOR John M Mugane (8991604883a4ca2601298f8ea013b389)... INSTRUCTOR SAVED
+SAVING INSTRUCTOR COURSE INSTANCE RELATION... INSTRUCTOR COURSE INSTANCE RELATION SAVED
+SAVING RATING Instructor Overall... RATING SAVED
+SAVING RATING Accessible Outside Class... RATING SAVED
+SAVING RATING Generates Enthusiasm... RATING SAVED
+SAVING REASON Pre-Med Requirement... REASON SAVED
+SAVING REASON Concentration or Department Requirement... REASON SAVED
+SAVING REASON Expository Writing Requirement... REASON SAVED
+SAVING REASON Secondary Field or Language Citation Requirement... REASON SAVED
+SAVING REASON Elective... REASON SAVED
+SAVING REASON Undergraduate Core or General Education Requirement... REASON SAVED
+SAVING REASON Foreign Language Requirement... REASON SAVED
+
+7. SCRAPING AFRAMER 90r.g: Haitian Creole (32112)
+PARSING NEW TABLE
+Course Overall: 4.42
+[0, 0, 1, 5, 6]
+Materials: 4.0
+[0, 1, 2, 5, 4]
+Assignments: 3.75
+[1, 1, 1, 6, 3]
+Feedback: 3.9
+[0, 1, 3, 2, 4]
+Section: 4.62
+[0, 0, 1, 1, 6]
+PARSING NEW TABLE
+Workload: 1.58
+[5, 7, 0, 0, 0]
+PARSING NEW TABLE
+Contributed to Speaking Language: 4.83
+[0, 0, 0, 2, 10]
+Contributed to Listening Comprehension: 4.67
+[0, 0, 1, 2, 9]
+Contributed to Reading Language: 4.83
+[0, 0, 0, 2, 10]
+Contributed to Writing Language: 4.75
+[0, 0, 0, 3, 9]
+Contributed to Understanding Culture: 4.92
+[0, 0, 0, 1, 11]
+PARSING NEW TABLE
+Difficulty: [2, 3, 4, 1, 0]
+PARSING REASONS
+Elective: 9
+Concentration or Department Requirement: 1
+Secondary Field or Language Citation Requirement: 1
+Undergraduate Core or General Education Requirement: 0
+Expository Writing Requirement: 0
+Foreign Language Requirement: 2
+Pre-Med Requirement: 0
+GETTING COMMENTS
+GETTING COMMENTS WITH &qid=1487
+FOUND INSTRUCTOR John M Mugane (8991604883a4ca2601298f8ea013b389)
+PARSING NEW TABLE
+Instructor Overall: 3.62
+[0, 1, 3, 2, 2]
+Effective Lectures or Presentations: 3.0
+[0, 0, 1, 0, 0]
+Accessible Outside Class: 3.0
+[0, 0, 2, 0, 0]
+Generates Enthusiasm: 3.0
+[0, 0, 2, 0, 0]
+Facilitates Discussion & Encourages Participation: 3.0
+[0, 0, 1, 0, 0]
+(1062, "Duplicate entry 'AFRAMER' for key 'abbreviation'")
+SAVING FIELD AFRAMER... FIELD ALREADY EXISTS
+SAVING COURSE... COURSE SAVED
+SAVING COURSE INSTANCE... COURSE INSTANCE SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING RATING Course Overall... RATING SAVED
+SAVING RATING Materials... RATING SAVED
+SAVING RATING Assignments... RATING SAVED
+SAVING RATING Feedback... RATING SAVED
+SAVING RATING Section... RATING SAVED
+SAVING RATING Workload... RATING SAVED
+SAVING RATING Contributed to Speaking Language... RATING SAVED
+SAVING RATING Contributed to Listening Comprehension... RATING SAVED
+SAVING RATING Contributed to Reading Language... RATING SAVED
+SAVING RATING Contributed to Writing Language... RATING SAVED
+SAVING RATING Contributed to Understanding Culture... RATING SAVED
+SAVING RATING Difficulty... RATING SAVED
+SAVING INSTRUCTOR John M Mugane (8991604883a4ca2601298f8ea013b389)... INSTRUCTOR SAVED
+SAVING INSTRUCTOR COURSE INSTANCE RELATION... INSTRUCTOR COURSE INSTANCE RELATION SAVED
+SAVING RATING Instructor Overall... RATING SAVED
+SAVING RATING Effective Lectures or Presentations... RATING SAVED
+SAVING RATING Accessible Outside Class... RATING SAVED
+SAVING RATING Generates Enthusiasm... RATING SAVED
+SAVING RATING Facilitates Discussion & Encourages Participation... RATING SAVED
+SAVING REASON Pre-Med Requirement... REASON SAVED
+SAVING REASON Concentration or Department Requirement... REASON SAVED
+SAVING REASON Expository Writing Requirement... REASON SAVED
+SAVING REASON Secondary Field or Language Citation Requirement... REASON SAVED
+SAVING REASON Elective... REASON SAVED
+SAVING REASON Undergraduate Core or General Education Requirement... REASON SAVED
+SAVING REASON Foreign Language Requirement... REASON SAVED
+
+8. SCRAPING AFRAMER 90r.i: Igbo (32113)
+PARSING NEW TABLE
+Course Overall: 4.0
+[0, 1, 1, 4, 3]
+Materials: 2.89
+[2, 2, 1, 3, 1]
+Assignments: 4.0
+[0, 0, 2, 5, 2]
+Feedback: 3.78
+[0, 1, 3, 2, 3]
+Section: 4.25
+[0, 0, 1, 1, 2]
+PARSING NEW TABLE
+Workload: 1.89
+[3, 4, 2, 0, 0]
+PARSING NEW TABLE
+Contributed to Speaking Language: 4.38
+[0, 1, 0, 2, 5]
+Contributed to Listening Comprehension: 3.88
+[0, 2, 0, 3, 3]
+Contributed to Reading Language: 4.38
+[0, 0, 0, 5, 3]
+Contributed to Writing Language: 4.38
+[0, 0, 0, 5, 3]
+Contributed to Understanding Culture: 4.0
+[1, 0, 0, 4, 3]
+PARSING NEW TABLE
+Difficulty: [1, 2, 5, 1, 0]
+PARSING REASONS
+Elective: 5
+Concentration or Department Requirement: 0
+Secondary Field or Language Citation Requirement: 2
+Undergraduate Core or General Education Requirement: 0
+Expository Writing Requirement: 0
+Foreign Language Requirement: 4
+Pre-Med Requirement: 0
+GETTING COMMENTS
+GETTING COMMENTS WITH &qid=1487
+FOUND INSTRUCTOR John M Mugane (8991604883a4ca2601298f8ea013b389)
+PARSING NEW TABLE
+Instructor Overall: 3.71
+[0, 1, 2, 2, 2]
+Effective Lectures or Presentations: 5.0
+[0, 0, 0, 0, 1]
+Accessible Outside Class: 3.25
+[1, 0, 1, 1, 1]
+Generates Enthusiasm: 4.0
+[0, 1, 0, 0, 2]
+Facilitates Discussion & Encourages Participation: 4.5
+[0, 0, 0, 1, 1]
+(1062, "Duplicate entry 'AFRAMER' for key 'abbreviation'")
+SAVING FIELD AFRAMER... FIELD ALREADY EXISTS
+SAVING COURSE... COURSE SAVED
+SAVING COURSE INSTANCE... COURSE INSTANCE SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING RATING Course Overall... RATING SAVED
+SAVING RATING Materials... RATING SAVED
+SAVING RATING Assignments... RATING SAVED
+SAVING RATING Feedback... RATING SAVED
+SAVING RATING Section... RATING SAVED
+SAVING RATING Workload... RATING SAVED
+SAVING RATING Contributed to Speaking Language... RATING SAVED
+SAVING RATING Contributed to Listening Comprehension... RATING SAVED
+SAVING RATING Contributed to Reading Language... RATING SAVED
+SAVING RATING Contributed to Writing Language... RATING SAVED
+SAVING RATING Contributed to Understanding Culture... RATING SAVED
+SAVING RATING Difficulty... RATING SAVED
+SAVING INSTRUCTOR John M Mugane (8991604883a4ca2601298f8ea013b389)... INSTRUCTOR SAVED
+SAVING INSTRUCTOR COURSE INSTANCE RELATION... INSTRUCTOR COURSE INSTANCE RELATION SAVED
+SAVING RATING Instructor Overall... RATING SAVED
+SAVING RATING Effective Lectures or Presentations... RATING SAVED
+SAVING RATING Accessible Outside Class... RATING SAVED
+SAVING RATING Generates Enthusiasm... RATING SAVED
+SAVING RATING Facilitates Discussion & Encourages Participation... RATING SAVED
+SAVING REASON Pre-Med Requirement... REASON SAVED
+SAVING REASON Concentration or Department Requirement... REASON SAVED
+SAVING REASON Expository Writing Requirement... REASON SAVED
+SAVING REASON Secondary Field or Language Citation Requirement... REASON SAVED
+SAVING REASON Elective... REASON SAVED
+SAVING REASON Undergraduate Core or General Education Requirement... REASON SAVED
+SAVING REASON Foreign Language Requirement... REASON SAVED
+
+9. SCRAPING AFRAMER 90r.j: Kinyarwanda (32114)
+PARSING NEW TABLE
+Course Overall: 4.83
+[0, 0, 0, 1, 5]
+Materials: 4.5
+[0, 0, 0, 2, 2]
+Assignments: 4.5
+[0, 0, 0, 3, 3]
+Feedback: 5.0
+[0, 0, 0, 0, 6]
+Section: 5.0
+[0, 0, 0, 0, 4]
+PARSING NEW TABLE
+Workload: 1.83
+[2, 3, 1, 0, 0]
+PARSING NEW TABLE
+Contributed to Speaking Language: 4.83
+[0, 0, 0, 1, 5]
+Contributed to Listening Comprehension: 4.5
+[0, 0, 0, 3, 3]
+Contributed to Reading Language: 4.83
+[0, 0, 0, 1, 5]
+Contributed to Writing Language: 4.83
+[0, 0, 0, 1, 5]
+Contributed to Understanding Culture: 4.33
+[0, 0, 0, 4, 2]
+PARSING NEW TABLE
+Difficulty: [0, 1, 4, 1, 0]
+PARSING REASONS
+Elective: 2
+Concentration or Department Requirement: 3
+Secondary Field or Language Citation Requirement: 1
+Undergraduate Core or General Education Requirement: 0
+Expository Writing Requirement: 0
+Foreign Language Requirement: 3
+Pre-Med Requirement: 0
+GETTING COMMENTS
+GETTING COMMENTS WITH &qid=1487
+FOUND INSTRUCTOR John M Mugane (8991604883a4ca2601298f8ea013b389)
+PARSING NEW TABLE
+Instructor Overall: 4.67
+[0, 0, 0, 1, 2]
+Effective Lectures or Presentations: 5.0
+[0, 0, 0, 0, 1]
+Accessible Outside Class: 5.0
+[0, 0, 0, 0, 1]
+Generates Enthusiasm: 5.0
+[0, 0, 0, 0, 1]
+Facilitates Discussion & Encourages Participation: 5.0
+[0, 0, 0, 0, 1]
+(1062, "Duplicate entry 'AFRAMER' for key 'abbreviation'")
+SAVING FIELD AFRAMER... FIELD ALREADY EXISTS
+SAVING COURSE... COURSE SAVED
+SAVING COURSE INSTANCE... COURSE INSTANCE SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING RATING Course Overall... RATING SAVED
+SAVING RATING Materials... RATING SAVED
+SAVING RATING Assignments... RATING SAVED
+SAVING RATING Feedback... RATING SAVED
+SAVING RATING Section... RATING SAVED
+SAVING RATING Workload... RATING SAVED
+SAVING RATING Contributed to Speaking Language... RATING SAVED
+SAVING RATING Contributed to Listening Comprehension... RATING SAVED
+SAVING RATING Contributed to Reading Language... RATING SAVED
+SAVING RATING Contributed to Writing Language... RATING SAVED
+SAVING RATING Contributed to Understanding Culture... RATING SAVED
+SAVING RATING Difficulty... RATING SAVED
+SAVING INSTRUCTOR John M Mugane (8991604883a4ca2601298f8ea013b389)... INSTRUCTOR SAVED
+SAVING INSTRUCTOR COURSE INSTANCE RELATION... INSTRUCTOR COURSE INSTANCE RELATION SAVED
+SAVING RATING Instructor Overall... RATING SAVED
+SAVING RATING Effective Lectures or Presentations... RATING SAVED
+SAVING RATING Accessible Outside Class... RATING SAVED
+SAVING RATING Generates Enthusiasm... RATING SAVED
+SAVING RATING Facilitates Discussion & Encourages Participation... RATING SAVED
+SAVING REASON Pre-Med Requirement... REASON SAVED
+SAVING REASON Concentration or Department Requirement... REASON SAVED
+SAVING REASON Expository Writing Requirement... REASON SAVED
+SAVING REASON Secondary Field or Language Citation Requirement... REASON SAVED
+SAVING REASON Elective... REASON SAVED
+SAVING REASON Undergraduate Core or General Education Requirement... REASON SAVED
+SAVING REASON Foreign Language Requirement... REASON SAVED
+
+10. SCRAPING AFRAMER 90r.k: Luganda (32089)
+PARSING NEW TABLE
+Course Overall: 2.67
+[0, 1, 2, 0, 0]
+Materials: 3.0
+[0, 0, 2, 0, 0]
+Assignments: 2.67
+[0, 1, 2, 0, 0]
+Feedback: 2.67
+[0, 2, 0, 1, 0]
+Section: 2.0
+[0, 1, 0, 0, 0]
+PARSING NEW TABLE
+Workload: 1.0
+[3, 0, 0, 0, 0]
+PARSING NEW TABLE
+Contributed to Speaking Language: 4.0
+[0, 0, 0, 3, 0]
+Contributed to Listening Comprehension: 3.67
+[0, 0, 1, 2, 0]
+Contributed to Reading Language: 4.0
+[0, 0, 0, 3, 0]
+Contributed to Writing Language: 4.0
+[0, 0, 0, 3, 0]
+Contributed to Understanding Culture: 3.67
+[0, 0, 1, 2, 0]
+PARSING NEW TABLE
+Difficulty: [0, 2, 1, 0, 0]
+PARSING REASONS
+Elective: 2
+Concentration or Department Requirement: 1
+Secondary Field or Language Citation Requirement: 0
+Undergraduate Core or General Education Requirement: 0
+Expository Writing Requirement: 0
+Foreign Language Requirement: 1
+Pre-Med Requirement: 0
+GETTING COMMENTS
+GETTING COMMENTS WITH &qid=1487
+FOUND INSTRUCTOR John M Mugane (8991604883a4ca2601298f8ea013b389)
+PARSING NEW TABLE
+Instructor Overall: 4.0
+[0, 0, 0, 1, 0]
+Effective Lectures or Presentations: None
+Accessible Outside Class: None
+Generates Enthusiasm: None
+Facilitates Discussion & Encourages Participation: None
+(1062, "Duplicate entry 'AFRAMER' for key 'abbreviation'")
+SAVING FIELD AFRAMER... FIELD ALREADY EXISTS
+SAVING COURSE... COURSE SAVED
+SAVING COURSE INSTANCE... COURSE INSTANCE SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING RATING Course Overall... RATING SAVED
+SAVING RATING Materials... RATING SAVED
+SAVING RATING Assignments... RATING SAVED
+SAVING RATING Feedback... RATING SAVED
+SAVING RATING Section... RATING SAVED
+SAVING RATING Workload... RATING SAVED
+SAVING RATING Contributed to Speaking Language... RATING SAVED
+SAVING RATING Contributed to Listening Comprehension... RATING SAVED
+SAVING RATING Contributed to Reading Language... RATING SAVED
+SAVING RATING Contributed to Writing Language... RATING SAVED
+SAVING RATING Contributed to Understanding Culture... RATING SAVED
+SAVING RATING Difficulty... RATING SAVED
+SAVING INSTRUCTOR John M Mugane (8991604883a4ca2601298f8ea013b389)... INSTRUCTOR SAVED
+SAVING INSTRUCTOR COURSE INSTANCE RELATION... INSTRUCTOR COURSE INSTANCE RELATION SAVED
+SAVING RATING Instructor Overall... RATING SAVED
+SAVING REASON Pre-Med Requirement... REASON SAVED
+SAVING REASON Concentration or Department Requirement... REASON SAVED
+SAVING REASON Expository Writing Requirement... REASON SAVED
+SAVING REASON Secondary Field or Language Citation Requirement... REASON SAVED
+SAVING REASON Elective... REASON SAVED
+SAVING REASON Undergraduate Core or General Education Requirement... REASON SAVED
+SAVING REASON Foreign Language Requirement... REASON SAVED
+
+11. SCRAPING AFRAMER 90r.o: Wolof (32092)
+PARSING NEW TABLE
+Course Overall: 4.67
+[0, 0, 0, 2, 4]
+Materials: 4.57
+[0, 0, 0, 3, 4]
+Assignments: 4.29
+[0, 0, 1, 3, 3]
+Feedback: 4.71
+[0, 0, 0, 2, 5]
+Section: 4.67
+[0, 0, 0, 1, 2]
+PARSING NEW TABLE
+Workload: 1.57
+[4, 2, 1, 0, 0]
+PARSING NEW TABLE
+Contributed to Speaking Language: 4.43
+[0, 0, 1, 2, 4]
+Contributed to Listening Comprehension: 4.57
+[0, 0, 0, 3, 4]
+Contributed to Reading Language: 4.57
+[0, 0, 0, 3, 4]
+Contributed to Writing Language: 4.5
+[0, 0, 0, 3, 3]
+Contributed to Understanding Culture: 4.71
+[0, 0, 0, 2, 5]
+PARSING NEW TABLE
+Difficulty: [1, 1, 5, 0, 0]
+PARSING REASONS
+Elective: 6
+Concentration or Department Requirement: 0
+Secondary Field or Language Citation Requirement: 1
+Undergraduate Core or General Education Requirement: 0
+Expository Writing Requirement: 0
+Foreign Language Requirement: 0
+Pre-Med Requirement: 0
+GETTING COMMENTS
+GETTING COMMENTS WITH &qid=1487
+FOUND INSTRUCTOR John M Mugane (8991604883a4ca2601298f8ea013b389)
+PARSING NEW TABLE
+Instructor Overall: 4.2
+[0, 0, 1, 2, 2]
+Effective Lectures or Presentations: 5.0
+[0, 0, 0, 0, 3]
+Accessible Outside Class: 4.67
+[0, 0, 0, 1, 2]
+Generates Enthusiasm: 4.67
+[0, 0, 0, 1, 2]
+Facilitates Discussion & Encourages Participation: 4.67
+[0, 0, 0, 1, 2]
+(1062, "Duplicate entry 'AFRAMER' for key 'abbreviation'")
+SAVING FIELD AFRAMER... FIELD ALREADY EXISTS
+SAVING COURSE... COURSE SAVED
+SAVING COURSE INSTANCE... COURSE INSTANCE SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING RATING Course Overall... RATING SAVED
+SAVING RATING Materials... RATING SAVED
+SAVING RATING Assignments... RATING SAVED
+SAVING RATING Feedback... RATING SAVED
+SAVING RATING Section... RATING SAVED
+SAVING RATING Workload... RATING SAVED
+SAVING RATING Contributed to Speaking Language... RATING SAVED
+SAVING RATING Contributed to Listening Comprehension... RATING SAVED
+SAVING RATING Contributed to Reading Language... RATING SAVED
+SAVING RATING Contributed to Writing Language... RATING SAVED
+SAVING RATING Contributed to Understanding Culture... RATING SAVED
+SAVING RATING Difficulty... RATING SAVED
+SAVING INSTRUCTOR John M Mugane (8991604883a4ca2601298f8ea013b389)... INSTRUCTOR SAVED
+SAVING INSTRUCTOR COURSE INSTANCE RELATION... INSTRUCTOR COURSE INSTANCE RELATION SAVED
+SAVING RATING Instructor Overall... RATING SAVED
+SAVING RATING Effective Lectures or Presentations... RATING SAVED
+SAVING RATING Accessible Outside Class... RATING SAVED
+SAVING RATING Generates Enthusiasm... RATING SAVED
+SAVING RATING Facilitates Discussion & Encourages Participation... RATING SAVED
+SAVING REASON Pre-Med Requirement... REASON SAVED
+SAVING REASON Concentration or Department Requirement... REASON SAVED
+SAVING REASON Expository Writing Requirement... REASON SAVED
+SAVING REASON Secondary Field or Language Citation Requirement... REASON SAVED
+SAVING REASON Elective... REASON SAVED
+SAVING REASON Undergraduate Core or General Education Requirement... REASON SAVED
+SAVING REASON Foreign Language Requirement... REASON SAVED
+
+12. SCRAPING AFRAMER 90r.q: Zulu (32094)
+PARSING NEW TABLE
+Course Overall: 4.56
+[0, 0, 0, 4, 5]
+Materials: 4.11
+[0, 0, 3, 2, 4]
+Assignments: 4.33
+[0, 0, 3, 0, 6]
+Feedback: 4.25
+[0, 0, 2, 2, 4]
+Section: 5.0
+[0, 0, 0, 0, 5]
+PARSING NEW TABLE
+Workload: 2.33
+[1, 5, 2, 1, 0]
+PARSING NEW TABLE
+Contributed to Speaking Language: 4.56
+[0, 0, 0, 4, 5]
+Contributed to Listening Comprehension: 4.33
+[0, 0, 1, 4, 4]
+Contributed to Reading Language: 4.78
+[0, 0, 0, 2, 7]
+Contributed to Writing Language: 4.78
+[0, 0, 0, 2, 7]
+Contributed to Understanding Culture: 5.0
+[0, 0, 0, 0, 7]
+PARSING NEW TABLE
+Difficulty: [0, 2, 6, 1, 0]
+PARSING REASONS
+Elective: 6
+Concentration or Department Requirement: 1
+Secondary Field or Language Citation Requirement: 2
+Undergraduate Core or General Education Requirement: 0
+Expository Writing Requirement: 0
+Foreign Language Requirement: 2
+Pre-Med Requirement: 0
+GETTING COMMENTS
+GETTING COMMENTS WITH &qid=1487
+FOUND INSTRUCTOR John M Mugane (8991604883a4ca2601298f8ea013b389)
+PARSING NEW TABLE
+Instructor Overall: 4.75
+[0, 0, 0, 1, 3]
+Effective Lectures or Presentations: 5.0
+[0, 0, 0, 0, 3]
+Accessible Outside Class: 4.5
+[0, 0, 1, 0, 3]
+Generates Enthusiasm: 4.67
+[0, 0, 0, 1, 2]
+Facilitates Discussion & Encourages Participation: 5.0
+[0, 0, 0, 0, 3]
+(1062, "Duplicate entry 'AFRAMER' for key 'abbreviation'")
+SAVING FIELD AFRAMER... FIELD ALREADY EXISTS
+SAVING COURSE... COURSE SAVED
+SAVING COURSE INSTANCE... COURSE INSTANCE SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING RATING Course Overall... RATING SAVED
+SAVING RATING Materials... RATING SAVED
+SAVING RATING Assignments... RATING SAVED
+SAVING RATING Feedback... RATING SAVED
+SAVING RATING Section... RATING SAVED
+SAVING RATING Workload... RATING SAVED
+SAVING RATING Contributed to Speaking Language... RATING SAVED
+SAVING RATING Contributed to Listening Comprehension... RATING SAVED
+SAVING RATING Contributed to Reading Language... RATING SAVED
+SAVING RATING Contributed to Writing Language... RATING SAVED
+SAVING RATING Contributed to Understanding Culture... RATING SAVED
+SAVING RATING Difficulty... RATING SAVED
+SAVING INSTRUCTOR John M Mugane (8991604883a4ca2601298f8ea013b389)... INSTRUCTOR SAVED
+SAVING INSTRUCTOR COURSE INSTANCE RELATION... INSTRUCTOR COURSE INSTANCE RELATION SAVED
+SAVING RATING Instructor Overall... RATING SAVED
+SAVING RATING Effective Lectures or Presentations... RATING SAVED
+SAVING RATING Accessible Outside Class... RATING SAVED
+SAVING RATING Generates Enthusiasm... RATING SAVED
+SAVING RATING Facilitates Discussion & Encourages Participation... RATING SAVED
+SAVING REASON Pre-Med Requirement... REASON SAVED
+SAVING REASON Concentration or Department Requirement... REASON SAVED
+SAVING REASON Expository Writing Requirement... REASON SAVED
+SAVING REASON Secondary Field or Language Citation Requirement... REASON SAVED
+SAVING REASON Elective... REASON SAVED
+SAVING REASON Undergraduate Core or General Education Requirement... REASON SAVED
+SAVING REASON Foreign Language Requirement... REASON SAVED
+
+13. SCRAPING AFRAMER 90r.u: Sudanese Arabic (31820)
+PARSING NEW TABLE
+Course Overall: 4.0
+[0, 0, 0, 3, 0]
+Materials: 2.67
+[1, 0, 1, 1, 0]
+Assignments: 3.67
+[0, 0, 1, 2, 0]
+Feedback: 3.67
+[0, 0, 1, 2, 0]
+Section: None
+PARSING NEW TABLE
+Workload: 1.0
+[3, 0, 0, 0, 0]
+PARSING NEW TABLE
+Difficulty: [0, 2, 1, 0, 0]
+PARSING REASONS
+Elective: 3
+Concentration or Department Requirement: 0
+Secondary Field or Language Citation Requirement: 0
+Undergraduate Core or General Education Requirement: 0
+Expository Writing Requirement: 0
+Foreign Language Requirement: 0
+Pre-Med Requirement: 0
+GETTING COMMENTS
+GETTING COMMENTS WITH &qid=1487
+FOUND INSTRUCTOR John M Mugane (8991604883a4ca2601298f8ea013b389)
+PARSING NEW TABLE
+Instructor Overall: 4.0
+[0, 0, 0, 1, 0]
+Effective Lectures or Presentations: 4.0
+[0, 0, 0, 1, 0]
+Accessible Outside Class: 4.0
+[0, 0, 0, 1, 0]
+Generates Enthusiasm: 4.0
+[0, 0, 0, 1, 0]
+Facilitates Discussion & Encourages Participation: 4.0
+[0, 0, 0, 1, 0]
+(1062, "Duplicate entry 'AFRAMER' for key 'abbreviation'")
+SAVING FIELD AFRAMER... FIELD ALREADY EXISTS
+SAVING COURSE... COURSE SAVED
+SAVING COURSE INSTANCE... COURSE INSTANCE SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING RATING Course Overall... RATING SAVED
+SAVING RATING Materials... RATING SAVED
+SAVING RATING Assignments... RATING SAVED
+SAVING RATING Feedback... RATING SAVED
+SAVING RATING Workload... RATING SAVED
+SAVING RATING Difficulty... RATING SAVED
+SAVING INSTRUCTOR John M Mugane (8991604883a4ca2601298f8ea013b389)... INSTRUCTOR SAVED
+SAVING INSTRUCTOR COURSE INSTANCE RELATION... INSTRUCTOR COURSE INSTANCE RELATION SAVED
+SAVING RATING Instructor Overall... RATING SAVED
+SAVING RATING Effective Lectures or Presentations... RATING SAVED
+SAVING RATING Accessible Outside Class... RATING SAVED
+SAVING RATING Generates Enthusiasm... RATING SAVED
+SAVING RATING Facilitates Discussion & Encourages Participation... RATING SAVED
+SAVING REASON Pre-Med Requirement... REASON SAVED
+SAVING REASON Concentration or Department Requirement... REASON SAVED
+SAVING REASON Expository Writing Requirement... REASON SAVED
+SAVING REASON Secondary Field or Language Citation Requirement... REASON SAVED
+SAVING REASON Elective... REASON SAVED
+SAVING REASON Undergraduate Core or General Education Requirement... REASON SAVED
+SAVING REASON Foreign Language Requirement... REASON SAVED
+
+14. SCRAPING AFRAMER 90r.w: Ibibio (31745)
+PARSING NEW TABLE
+Course Overall: 5.0
+[0, 0, 0, 0, 1]
+Materials: 5.0
+[0, 0, 0, 0, 1]
+Assignments: 5.0
+[0, 0, 0, 0, 1]
+Feedback: 5.0
+[0, 0, 0, 0, 1]
+Section: 5.0
+[0, 0, 0, 0, 1]
+PARSING NEW TABLE
+Workload: 1.0
+[1, 0, 0, 0, 0]
+PARSING NEW TABLE
+Contributed to Speaking Language: 5.0
+[0, 0, 0, 0, 1]
+Contributed to Listening Comprehension: 5.0
+[0, 0, 0, 0, 1]
+Contributed to Reading Language: 5.0
+[0, 0, 0, 0, 1]
+Contributed to Writing Language: 5.0
+[0, 0, 0, 0, 1]
+Contributed to Understanding Culture: 5.0
+[0, 0, 0, 0, 1]
+PARSING NEW TABLE
+Difficulty: [0, 1, 0, 0, 0]
+PARSING REASONS
+Elective: 1
+Concentration or Department Requirement: 0
+Secondary Field or Language Citation Requirement: 0
+Undergraduate Core or General Education Requirement: 0
+Expository Writing Requirement: 0
+Foreign Language Requirement: 0
+Pre-Med Requirement: 0
+GETTING COMMENTS
+GETTING COMMENTS WITH &qid=1487
+FOUND INSTRUCTOR John M Mugane (8991604883a4ca2601298f8ea013b389)
+PARSING NEW TABLE
+Instructor Overall: 5.0
+[0, 0, 0, 0, 1]
+Effective Lectures or Presentations: None
+Accessible Outside Class: None
+Generates Enthusiasm: None
+Facilitates Discussion & Encourages Participation: None
+(1062, "Duplicate entry 'AFRAMER' for key 'abbreviation'")
+SAVING FIELD AFRAMER... FIELD ALREADY EXISTS
+SAVING COURSE... COURSE SAVED
+SAVING COURSE INSTANCE... COURSE INSTANCE SAVED
+SAVING RATING Course Overall... RATING SAVED
+SAVING RATING Materials... RATING SAVED
+SAVING RATING Assignments... RATING SAVED
+SAVING RATING Feedback... RATING SAVED
+SAVING RATING Section... RATING SAVED
+SAVING RATING Workload... RATING SAVED
+SAVING RATING Contributed to Speaking Language... RATING SAVED
+SAVING RATING Contributed to Listening Comprehension... RATING SAVED
+SAVING RATING Contributed to Reading Language... RATING SAVED
+SAVING RATING Contributed to Writing Language... RATING SAVED
+SAVING RATING Contributed to Understanding Culture... RATING SAVED
+SAVING RATING Difficulty... RATING SAVED
+SAVING INSTRUCTOR John M Mugane (8991604883a4ca2601298f8ea013b389)... INSTRUCTOR SAVED
+SAVING INSTRUCTOR COURSE INSTANCE RELATION... INSTRUCTOR COURSE INSTANCE RELATION SAVED
+SAVING RATING Instructor Overall... RATING SAVED
+SAVING REASON Pre-Med Requirement... REASON SAVED
+SAVING REASON Concentration or Department Requirement... REASON SAVED
+SAVING REASON Expository Writing Requirement... REASON SAVED
+SAVING REASON Secondary Field or Language Citation Requirement... REASON SAVED
+SAVING REASON Elective... REASON SAVED
+SAVING REASON Undergraduate Core or General Education Requirement... REASON SAVED
+SAVING REASON Foreign Language Requirement... REASON SAVED
+
+15. SCRAPING AFRAMER 90r.z: Lingala (32223)
+PARSING NEW TABLE
+Course Overall: 4.0
+[0, 0, 0, 1, 0]
+Materials: 3.0
+[0, 0, 1, 0, 0]
+Assignments: 4.0
+[0, 0, 0, 1, 0]
+Feedback: 4.0
+[0, 0, 0, 1, 0]
+Section: None
+PARSING NEW TABLE
+Workload: 1.0
+[1, 0, 0, 0, 0]
+PARSING NEW TABLE
+Difficulty: [0, 0, 1, 0, 0]
+PARSING REASONS
+Elective: 0
+Concentration or Department Requirement: 0
+Secondary Field or Language Citation Requirement: 0
+Undergraduate Core or General Education Requirement: 0
+Expository Writing Requirement: 0
+Foreign Language Requirement: 1
+Pre-Med Requirement: 0
+GETTING COMMENTS
+GETTING COMMENTS WITH &qid=1487
+FOUND INSTRUCTOR John M Mugane (8991604883a4ca2601298f8ea013b389)
+PARSING NEW TABLE
+Instructor Overall: 5.0
+[0, 0, 0, 0, 1]
+Effective Lectures or Presentations: 5.0
+[0, 0, 0, 0, 1]
+Accessible Outside Class: 4.0
+[0, 0, 0, 1, 0]
+Generates Enthusiasm: 5.0
+[0, 0, 0, 0, 1]
+Facilitates Discussion & Encourages Participation: 5.0
+[0, 0, 0, 0, 1]
+(1062, "Duplicate entry 'AFRAMER' for key 'abbreviation'")
+SAVING FIELD AFRAMER... FIELD ALREADY EXISTS
+SAVING COURSE... COURSE SAVED
+SAVING COURSE INSTANCE... COURSE INSTANCE SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING RATING Course Overall... RATING SAVED
+SAVING RATING Materials... RATING SAVED
+SAVING RATING Assignments... RATING SAVED
+SAVING RATING Feedback... RATING SAVED
+SAVING RATING Workload... RATING SAVED
+SAVING RATING Difficulty... RATING SAVED
+SAVING INSTRUCTOR John M Mugane (8991604883a4ca2601298f8ea013b389)... INSTRUCTOR SAVED
+SAVING INSTRUCTOR COURSE INSTANCE RELATION... INSTRUCTOR COURSE INSTANCE RELATION SAVED
+SAVING RATING Instructor Overall... RATING SAVED
+SAVING RATING Effective Lectures or Presentations... RATING SAVED
+SAVING RATING Accessible Outside Class... RATING SAVED
+SAVING RATING Generates Enthusiasm... RATING SAVED
+SAVING RATING Facilitates Discussion & Encourages Participation... RATING SAVED
+SAVING REASON Pre-Med Requirement... REASON SAVED
+SAVING REASON Concentration or Department Requirement... REASON SAVED
+SAVING REASON Expository Writing Requirement... REASON SAVED
+SAVING REASON Secondary Field or Language Citation Requirement... REASON SAVED
+SAVING REASON Elective... REASON SAVED
+SAVING REASON Undergraduate Core or General Education Requirement... REASON SAVED
+SAVING REASON Foreign Language Requirement... REASON SAVED
+
+16. SCRAPING AFRAMER 114x: From Cesaria Evora to Dama Do Bling: Music, Language, and Digital Media in the Former Portuguese Colonies (32082)
+PARSING NEW TABLE
+Course Overall: 5.0
+[0, 0, 0, 0, 4]
+Materials: 4.75
+[0, 0, 0, 1, 3]
+Assignments: 4.75
+[0, 0, 0, 1, 3]
+Feedback: 5.0
+[0, 0, 0, 0, 4]
+Section: 5.0
+[0, 0, 0, 0, 2]
+PARSING NEW TABLE
+Workload: 2.0
+[0, 4, 0, 0, 0]
+PARSING NEW TABLE
+In this course, I gained increased subject matter expertise on race, ethnicity, gender, and sexuality the Lusophone world, especially in relation to language, music, and digital media.: 5.0
+[0, 0, 0, 0, 4]
+In this course, I developed skills in conducting research both in the Harvard library system and online, and applied them to historical and ethnographic writing about primary and secondary sources.: 5.0
+[0, 0, 0, 0, 4]
+In this course, I practiced communicating thoughtfully and critically through public scholarship using digital media tools such as Wikipedia, Storify, and Zeega.: 5.0
+[0, 0, 0, 0, 4]
+PARSING NEW TABLE
+Difficulty: [0, 2, 2, 0, 0]
+PARSING REASONS
+Elective: 3
+Concentration or Department Requirement: 0
+Secondary Field or Language Citation Requirement: 0
+Undergraduate Core or General Education Requirement: 0
+Expository Writing Requirement: 0
+Foreign Language Requirement: 0
+Pre-Med Requirement: 0
+GETTING COMMENTS
+GETTING COMMENTS WITH &qid=1487
+FOUND INSTRUCTOR Carla Denny Martin (5865f1233860d1cd612476ad4e53c50b)
+PARSING NEW TABLE
+Instructor Overall: 5.0
+[0, 0, 0, 0, 4]
+Effective Lectures or Presentations: 5.0
+[0, 0, 0, 0, 4]
+Accessible Outside Class: 5.0
+[0, 0, 0, 0, 4]
+Generates Enthusiasm: 5.0
+[0, 0, 0, 0, 4]
+Facilitates Discussion & Encourages Participation: 5.0
+[0, 0, 0, 0, 4]
+(1062, "Duplicate entry 'AFRAMER' for key 'abbreviation'")
+SAVING FIELD AFRAMER... FIELD ALREADY EXISTS
+SAVING COURSE... COURSE SAVED
+SAVING COURSE INSTANCE... COURSE INSTANCE SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING RATING Course Overall... RATING SAVED
+SAVING RATING Materials... RATING SAVED
+SAVING RATING Assignments... RATING SAVED
+SAVING RATING Feedback... RATING SAVED
+SAVING RATING Section... RATING SAVED
+SAVING RATING Workload... RATING SAVED
+SAVING RATING In this course, I gained increased subject matter expertise on race, ethnicity, gender, and sexuality the Lusophone world, especially in relation to language, music, and digital media.... RATING SAVED
+SAVING RATING In this course, I developed skills in conducting research both in the Harvard library system and online, and applied them to historical and ethnographic writing about primary and secondary sources.... RATING SAVED
+SAVING RATING In this course, I practiced communicating thoughtfully and critically through public scholarship using digital media tools such as Wikipedia, Storify, and Zeega.... RATING SAVED
+SAVING RATING Difficulty... RATING SAVED
+SAVING INSTRUCTOR Carla Denny Martin (5865f1233860d1cd612476ad4e53c50b)... INSTRUCTOR SAVED
+SAVING INSTRUCTOR COURSE INSTANCE RELATION... INSTRUCTOR COURSE INSTANCE RELATION SAVED
+SAVING RATING Instructor Overall... RATING SAVED
+SAVING RATING Effective Lectures or Presentations... RATING SAVED
+SAVING RATING Accessible Outside Class... RATING SAVED
+SAVING RATING Generates Enthusiasm... RATING SAVED
+SAVING RATING Facilitates Discussion & Encourages Participation... RATING SAVED
+SAVING REASON Pre-Med Requirement... REASON SAVED
+SAVING REASON Concentration or Department Requirement... REASON SAVED
+SAVING REASON Expository Writing Requirement... REASON SAVED
+SAVING REASON Secondary Field or Language Citation Requirement... REASON SAVED
+SAVING REASON Elective... REASON SAVED
+SAVING REASON Undergraduate Core or General Education Requirement... REASON SAVED
+SAVING REASON Foreign Language Requirement... REASON SAVED
+
+17. SCRAPING AFRAMER 115: HBO's The Wire and its Contribution to Understanding Urban Inequality (31575)
+PARSING NEW TABLE
+Course Overall: 4.65
+[0, 0, 2, 4, 17]
+Materials: 4.87
+[0, 0, 0, 3, 20]
+Assignments: 4.48
+[0, 0, 2, 8, 13]
+Feedback: 3.83
+[1, 2, 5, 7, 8]
+Section: 4.75
+[0, 0, 0, 2, 6]
+PARSING NEW TABLE
+Workload: 3.22
+[0, 3, 12, 8, 0]
+PARSING NEW TABLE
+Difficulty: [0, 2, 11, 10, 0]
+PARSING REASONS
+Elective: 14
+Concentration or Department Requirement: 12
+Secondary Field or Language Citation Requirement: 3
+Undergraduate Core or General Education Requirement: 0
+Expository Writing Requirement: 0
+Foreign Language Requirement: 0
+Pre-Med Requirement: 0
+GETTING COMMENTS
+GETTING COMMENTS WITH &qid=1487
+FOUND INSTRUCTOR William Julius Wilson (6e26ce5ba8485becdd458449db1f3f76)
+PARSING NEW TABLE
+Instructor Overall: 4.74
+[0, 0, 0, 6, 17]
+Effective Lectures or Presentations: 4.76
+[0, 0, 0, 5, 16]
+Accessible Outside Class: 3.42
+[0, 6, 5, 2, 6]
+Generates Enthusiasm: 4.68
+[0, 0, 2, 3, 17]
+Facilitates Discussion & Encourages Participation: 4.63
+[0, 0, 1, 5, 13]
+(1062, "Duplicate entry 'AFRAMER' for key 'abbreviation'")
+SAVING FIELD AFRAMER... FIELD ALREADY EXISTS
+SAVING COURSE... COURSE SAVED
+SAVING COURSE INSTANCE... COURSE INSTANCE SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING RATING Course Overall... RATING SAVED
+SAVING RATING Materials... RATING SAVED
+SAVING RATING Assignments... RATING SAVED
+SAVING RATING Feedback... RATING SAVED
+SAVING RATING Section... RATING SAVED
+SAVING RATING Workload... RATING SAVED
+SAVING RATING Difficulty... RATING SAVED
+SAVING INSTRUCTOR William Julius Wilson (6e26ce5ba8485becdd458449db1f3f76)... INSTRUCTOR SAVED
+SAVING INSTRUCTOR COURSE INSTANCE RELATION... INSTRUCTOR COURSE INSTANCE RELATION SAVED
+SAVING RATING Instructor Overall... RATING SAVED
+SAVING RATING Effective Lectures or Presentations... RATING SAVED
+SAVING RATING Accessible Outside Class... RATING SAVED
+SAVING RATING Generates Enthusiasm... RATING SAVED
+SAVING RATING Facilitates Discussion & Encourages Participation... RATING SAVED
+SAVING REASON Pre-Med Requirement... REASON SAVED
+SAVING REASON Concentration or Department Requirement... REASON SAVED
+SAVING REASON Expository Writing Requirement... REASON SAVED
+SAVING REASON Secondary Field or Language Citation Requirement... REASON SAVED
+SAVING REASON Elective... REASON SAVED
+SAVING REASON Undergraduate Core or General Education Requirement... REASON SAVED
+SAVING REASON Foreign Language Requirement... REASON SAVED
+
+18. SCRAPING AFRAMER 117x: Of Mean Streets and Jungle Fevers: Race, Gender and Ethnicity in Martin Scorsese and Spike Lee (31121)
+PARSING NEW TABLE
+Course Overall: 3.5
+[0, 3, 13, 16, 2]
+Materials: 3.97
+[0, 1, 9, 12, 10]
+Assignments: 3.94
+[0, 1, 10, 13, 10]
+Feedback: 3.97
+[1, 0, 9, 12, 11]
+Section: 4.29
+[0, 2, 5, 8, 19]
+PARSING NEW TABLE
+Workload: 1.41
+[21, 12, 1, 0, 0]
+PARSING NEW TABLE
+Difficulty: [4, 20, 9, 1, 0]
+PARSING REASONS
+Elective: 27
+Concentration or Department Requirement: 6
+Secondary Field or Language Citation Requirement: 3
+Undergraduate Core or General Education Requirement: 0
+Expository Writing Requirement: 0
+Foreign Language Requirement: 0
+Pre-Med Requirement: 0
+GETTING COMMENTS
+GETTING COMMENTS WITH &qid=1487
+FOUND INSTRUCTOR Biodun Jeyifo (f9a42e26a96ea36da5bb287fffb0044a)
+PARSING NEW TABLE
+Instructor Overall: 3.06
+[2, 6, 14, 10, 1]
+Effective Lectures or Presentations: 3.09
+[2, 8, 12, 9, 3]
+Accessible Outside Class: 2.86
+[3, 5, 7, 6, 1]
+Generates Enthusiasm: 3.27
+[1, 7, 11, 10, 4]
+Facilitates Discussion & Encourages Participation: 2.89
+[1, 8, 13, 5, 1]
+(1062, "Duplicate entry 'AFRAMER' for key 'abbreviation'")
+SAVING FIELD AFRAMER... FIELD ALREADY EXISTS
+SAVING COURSE... COURSE SAVED
+SAVING COURSE INSTANCE... COURSE INSTANCE SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING RATING Course Overall... RATING SAVED
+SAVING RATING Materials... RATING SAVED
+SAVING RATING Assignments... RATING SAVED
+SAVING RATING Feedback... RATING SAVED
+SAVING RATING Section... RATING SAVED
+SAVING RATING Workload... RATING SAVED
+SAVING RATING Difficulty... RATING SAVED
+SAVING INSTRUCTOR Biodun Jeyifo (f9a42e26a96ea36da5bb287fffb0044a)... INSTRUCTOR SAVED
+SAVING INSTRUCTOR COURSE INSTANCE RELATION... INSTRUCTOR COURSE INSTANCE RELATION SAVED
+SAVING RATING Instructor Overall... RATING SAVED
+SAVING RATING Effective Lectures or Presentations... RATING SAVED
+SAVING RATING Accessible Outside Class... RATING SAVED
+SAVING RATING Generates Enthusiasm... RATING SAVED
+SAVING RATING Facilitates Discussion & Encourages Participation... RATING SAVED
+SAVING REASON Pre-Med Requirement... REASON SAVED
+SAVING REASON Concentration or Department Requirement... REASON SAVED
+SAVING REASON Expository Writing Requirement... REASON SAVED
+SAVING REASON Secondary Field or Language Citation Requirement... REASON SAVED
+SAVING REASON Elective... REASON SAVED
+SAVING REASON Undergraduate Core or General Education Requirement... REASON SAVED
+SAVING REASON Foreign Language Requirement... REASON SAVED
+
+19. SCRAPING AFRAMER 120x: African American Theatre, Drama, and Performance (31907)
+PARSING NEW TABLE
+Course Overall: 4.83
+[0, 0, 0, 1, 5]
+Materials: 4.83
+[0, 0, 0, 1, 5]
+Assignments: 4.67
+[0, 0, 0, 2, 4]
+Feedback: 4.67
+[0, 0, 0, 2, 4]
+Section: 5.0
+[0, 0, 0, 0, 4]
+PARSING NEW TABLE
+Workload: 2.5
+[0, 3, 3, 0, 0]
+PARSING NEW TABLE
+Difficulty: [0, 0, 4, 2, 0]
+PARSING REASONS
+Elective: 3
+Concentration or Department Requirement: 3
+Secondary Field or Language Citation Requirement: 1
+Undergraduate Core or General Education Requirement: 0
+Expository Writing Requirement: 0
+Foreign Language Requirement: 0
+Pre-Med Requirement: 0
+GETTING COMMENTS
+GETTING COMMENTS WITH &qid=1487
+FOUND INSTRUCTOR Robin Bernstein (624ec9b905eeb8a41a236d146573b121)
+PARSING NEW TABLE
+Instructor Overall: 4.83
+[0, 0, 0, 1, 5]
+Effective Lectures or Presentations: 4.67
+[0, 0, 0, 2, 4]
+Accessible Outside Class: 4.67
+[0, 0, 0, 2, 4]
+Generates Enthusiasm: 4.83
+[0, 0, 0, 1, 5]
+Facilitates Discussion & Encourages Participation: 4.83
+[0, 0, 0, 1, 5]
+(1062, "Duplicate entry 'AFRAMER' for key 'abbreviation'")
+SAVING FIELD AFRAMER... FIELD ALREADY EXISTS
+SAVING COURSE... COURSE SAVED
+SAVING COURSE INSTANCE... COURSE INSTANCE SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING RATING Course Overall... RATING SAVED
+SAVING RATING Materials... RATING SAVED
+SAVING RATING Assignments... RATING SAVED
+SAVING RATING Feedback... RATING SAVED
+SAVING RATING Section... RATING SAVED
+SAVING RATING Workload... RATING SAVED
+SAVING RATING Difficulty... RATING SAVED
+SAVING INSTRUCTOR Robin Bernstein (624ec9b905eeb8a41a236d146573b121)... INSTRUCTOR SAVED
+SAVING INSTRUCTOR COURSE INSTANCE RELATION... INSTRUCTOR COURSE INSTANCE RELATION SAVED
+SAVING RATING Instructor Overall... RATING SAVED
+SAVING RATING Effective Lectures or Presentations... RATING SAVED
+SAVING RATING Accessible Outside Class... RATING SAVED
+SAVING RATING Generates Enthusiasm... RATING SAVED
+SAVING RATING Facilitates Discussion & Encourages Participation... RATING SAVED
+SAVING REASON Pre-Med Requirement... REASON SAVED
+SAVING REASON Concentration or Department Requirement... REASON SAVED
+SAVING REASON Expository Writing Requirement... REASON SAVED
+SAVING REASON Secondary Field or Language Citation Requirement... REASON SAVED
+SAVING REASON Elective... REASON SAVED
+SAVING REASON Undergraduate Core or General Education Requirement... REASON SAVED
+SAVING REASON Foreign Language Requirement... REASON SAVED
+
+20. SCRAPING AFRAMER 124: Tobacco and Sugar (32077)
+PARSING NEW TABLE
+Course Overall: 3.8
+[0, 0, 2, 2, 1]
+Materials: 4.2
+[0, 0, 0, 4, 1]
+Assignments: 3.4
+[0, 2, 0, 2, 1]
+Feedback: 2.25
+[1, 1, 2, 0, 0]
+Section: 3.2
+[0, 1, 2, 2, 0]
+PARSING NEW TABLE
+Workload: 2.0
+[0, 5, 0, 0, 0]
+PARSING NEW TABLE
+Difficulty: [0, 0, 3, 2, 0]
+PARSING REASONS
+Elective: 4
+Concentration or Department Requirement: 1
+Secondary Field or Language Citation Requirement: 0
+Undergraduate Core or General Education Requirement: 0
+Expository Writing Requirement: 0
+Foreign Language Requirement: 0
+Pre-Med Requirement: 0
+GETTING COMMENTS
+GETTING COMMENTS WITH &qid=1487
+FOUND INSTRUCTOR Doris Sommer (43880627106323a37fd8ba24568bbd62)
+PARSING NEW TABLE
+Instructor Overall: 4.0
+[0, 0, 2, 1, 2]
+Effective Lectures or Presentations: 4.2
+[0, 0, 2, 0, 3]
+Accessible Outside Class: 4.0
+[0, 0, 2, 1, 2]
+Generates Enthusiasm: 4.6
+[0, 0, 0, 2, 3]
+Facilitates Discussion & Encourages Participation: 4.4
+[0, 0, 1, 1, 3]
+(1062, "Duplicate entry 'AFRAMER' for key 'abbreviation'")
+SAVING FIELD AFRAMER... FIELD ALREADY EXISTS
+SAVING COURSE... COURSE SAVED
+SAVING COURSE INSTANCE... COURSE INSTANCE SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING RATING Course Overall... RATING SAVED
+SAVING RATING Materials... RATING SAVED
+SAVING RATING Assignments... RATING SAVED
+SAVING RATING Feedback... RATING SAVED
+SAVING RATING Section... RATING SAVED
+SAVING RATING Workload... RATING SAVED
+SAVING RATING Difficulty... RATING SAVED
+SAVING INSTRUCTOR Doris Sommer (43880627106323a37fd8ba24568bbd62)... INSTRUCTOR SAVED
+SAVING INSTRUCTOR COURSE INSTANCE RELATION... INSTRUCTOR COURSE INSTANCE RELATION SAVED
+SAVING RATING Instructor Overall... RATING SAVED
+SAVING RATING Effective Lectures or Presentations... RATING SAVED
+SAVING RATING Accessible Outside Class... RATING SAVED
+SAVING RATING Generates Enthusiasm... RATING SAVED
+SAVING RATING Facilitates Discussion & Encourages Participation... RATING SAVED
+SAVING REASON Pre-Med Requirement... REASON SAVED
+SAVING REASON Concentration or Department Requirement... REASON SAVED
+SAVING REASON Expository Writing Requirement... REASON SAVED
+SAVING REASON Secondary Field or Language Citation Requirement... REASON SAVED
+SAVING REASON Elective... REASON SAVED
+SAVING REASON Undergraduate Core or General Education Requirement... REASON SAVED
+SAVING REASON Foreign Language Requirement... REASON SAVED
+
+21. SCRAPING AFRAMER 133: Zora Neale Hurston, Richard Wright, Ralph Ellison (31068)
+PARSING NEW TABLE
+Course Overall: 4.7
+[0, 0, 0, 3, 7]
+Materials: 4.9
+[0, 0, 0, 1, 9]
+Assignments: 4.0
+[0, 0, 3, 4, 3]
+Feedback: 4.3
+[0, 0, 2, 3, 5]
+Section: 5.0
+[0, 0, 0, 0, 1]
+PARSING NEW TABLE
+Workload: 2.9
+[0, 5, 2, 2, 1]
+PARSING NEW TABLE
+Difficulty: [0, 1, 6, 3, 0]
+PARSING REASONS
+Elective: 6
+Concentration or Department Requirement: 6
+Secondary Field or Language Citation Requirement: 2
+Undergraduate Core or General Education Requirement: 0
+Expository Writing Requirement: 0
+Foreign Language Requirement: 0
+Pre-Med Requirement: 0
+GETTING COMMENTS
+GETTING COMMENTS WITH &qid=1487
+FOUND INSTRUCTOR Glenda R. Carpio (2573af4905b8b108f21ba8a6bbb3391e)
+PARSING NEW TABLE
+Instructor Overall: 4.8
+[0, 0, 0, 2, 8]
+Effective Lectures or Presentations: 4.78
+[0, 0, 0, 2, 7]
+Accessible Outside Class: 4.44
+[0, 0, 1, 3, 5]
+Generates Enthusiasm: 4.9
+[0, 0, 0, 1, 9]
+Facilitates Discussion & Encourages Participation: 4.62
+[0, 0, 1, 1, 6]
+FOUND INSTRUCTOR Werner Sollors (06e438a1965a7d53f82aff62fcb17168)
+PARSING NEW TABLE
+Instructor Overall: 4.8
+[0, 0, 0, 2, 8]
+Effective Lectures or Presentations: 4.78
+[0, 0, 0, 2, 7]
+Accessible Outside Class: 4.44
+[0, 0, 1, 3, 5]
+Generates Enthusiasm: 4.9
+[0, 0, 0, 1, 9]
+Facilitates Discussion & Encourages Participation: 4.62
+[0, 0, 1, 1, 6]
+(1062, "Duplicate entry 'AFRAMER' for key 'abbreviation'")
+SAVING FIELD AFRAMER... FIELD ALREADY EXISTS
+SAVING COURSE... COURSE SAVED
+SAVING COURSE INSTANCE... COURSE INSTANCE SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING RATING Course Overall... RATING SAVED
+SAVING RATING Materials... RATING SAVED
+SAVING RATING Assignments... RATING SAVED
+SAVING RATING Feedback... RATING SAVED
+SAVING RATING Section... RATING SAVED
+SAVING RATING Workload... RATING SAVED
+SAVING RATING Difficulty... RATING SAVED
+SAVING INSTRUCTOR Glenda R. Carpio (2573af4905b8b108f21ba8a6bbb3391e)... INSTRUCTOR SAVED
+SAVING INSTRUCTOR COURSE INSTANCE RELATION... INSTRUCTOR COURSE INSTANCE RELATION SAVED
+SAVING RATING Instructor Overall... RATING SAVED
+SAVING RATING Effective Lectures or Presentations... RATING SAVED
+SAVING RATING Accessible Outside Class... RATING SAVED
+SAVING RATING Generates Enthusiasm... RATING SAVED
+SAVING RATING Facilitates Discussion & Encourages Participation... RATING SAVED
+SAVING INSTRUCTOR Werner Sollors (06e438a1965a7d53f82aff62fcb17168)... INSTRUCTOR SAVED
+SAVING INSTRUCTOR COURSE INSTANCE RELATION... INSTRUCTOR COURSE INSTANCE RELATION SAVED
+SAVING RATING Instructor Overall... RATING SAVED
+SAVING RATING Effective Lectures or Presentations... RATING SAVED
+SAVING RATING Accessible Outside Class... RATING SAVED
+SAVING RATING Generates Enthusiasm... RATING SAVED
+SAVING RATING Facilitates Discussion & Encourages Participation... RATING SAVED
+SAVING REASON Pre-Med Requirement... REASON SAVED
+SAVING REASON Concentration or Department Requirement... REASON SAVED
+SAVING REASON Expository Writing Requirement... REASON SAVED
+SAVING REASON Secondary Field or Language Citation Requirement... REASON SAVED
+SAVING REASON Elective... REASON SAVED
+SAVING REASON Undergraduate Core or General Education Requirement... REASON SAVED
+SAVING REASON Foreign Language Requirement... REASON SAVED
+
+22. SCRAPING AFRAMER 135x: Reading Du Bois (31918)
+PARSING NEW TABLE
+Course Overall: 5.0
+[0, 0, 0, 0, 6]
+Materials: 4.33
+[0, 1, 0, 1, 4]
+Assignments: 4.6
+[0, 0, 0, 2, 3]
+Feedback: 4.0
+[0, 0, 1, 3, 1]
+Section: 4.0
+[0, 0, 0, 1, 0]
+PARSING NEW TABLE
+Workload: 2.33
+[0, 4, 2, 0, 0]
+PARSING NEW TABLE
+Difficulty: [0, 0, 3, 3, 0]
+PARSING REASONS
+Elective: 6
+Concentration or Department Requirement: 1
+Secondary Field or Language Citation Requirement: 2
+Undergraduate Core or General Education Requirement: 0
+Expository Writing Requirement: 0
+Foreign Language Requirement: 0
+Pre-Med Requirement: 0
+GETTING COMMENTS
+GETTING COMMENTS WITH &qid=1487
+FOUND INSTRUCTOR Walter Johnson (8ca9d8ec5fbe32ec76cd794d9b34196a)
+PARSING NEW TABLE
+Instructor Overall: 4.8
+[0, 0, 0, 1, 4]
+Effective Lectures or Presentations: 5.0
+[0, 0, 0, 0, 5]
+Accessible Outside Class: 3.67
+[0, 1, 1, 3, 1]
+Generates Enthusiasm: 5.0
+[0, 0, 0, 0, 6]
+Facilitates Discussion & Encourages Participation: 4.6
+[0, 0, 0, 2, 3]
+FOUND INSTRUCTOR Tommie Shelby (ab311be3659dbd44828e4a4892a586e1)
+PARSING NEW TABLE
+Instructor Overall: 4.8
+[0, 0, 0, 1, 4]
+Effective Lectures or Presentations: 5.0
+[0, 0, 0, 0, 5]
+Accessible Outside Class: 3.67
+[0, 1, 1, 3, 1]
+Generates Enthusiasm: 5.0
+[0, 0, 0, 0, 6]
+Facilitates Discussion & Encourages Participation: 4.6
+[0, 0, 0, 2, 3]
+(1062, "Duplicate entry 'AFRAMER' for key 'abbreviation'")
+SAVING FIELD AFRAMER... FIELD ALREADY EXISTS
+SAVING COURSE... COURSE SAVED
+SAVING COURSE INSTANCE... COURSE INSTANCE SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING RATING Course Overall... RATING SAVED
+SAVING RATING Materials... RATING SAVED
+SAVING RATING Assignments... RATING SAVED
+SAVING RATING Feedback... RATING SAVED
+SAVING RATING Section... RATING SAVED
+SAVING RATING Workload... RATING SAVED
+SAVING RATING Difficulty... RATING SAVED
+SAVING INSTRUCTOR Walter Johnson (8ca9d8ec5fbe32ec76cd794d9b34196a)... INSTRUCTOR SAVED
+SAVING INSTRUCTOR COURSE INSTANCE RELATION... INSTRUCTOR COURSE INSTANCE RELATION SAVED
+SAVING RATING Instructor Overall... RATING SAVED
+SAVING RATING Effective Lectures or Presentations... RATING SAVED
+SAVING RATING Accessible Outside Class... RATING SAVED
+SAVING RATING Generates Enthusiasm... RATING SAVED
+SAVING RATING Facilitates Discussion & Encourages Participation... RATING SAVED
+SAVING INSTRUCTOR Tommie Shelby (ab311be3659dbd44828e4a4892a586e1)... INSTRUCTOR SAVED
+SAVING INSTRUCTOR COURSE INSTANCE RELATION... INSTRUCTOR COURSE INSTANCE RELATION SAVED
+SAVING RATING Instructor Overall... RATING SAVED
+SAVING RATING Effective Lectures or Presentations... RATING SAVED
+SAVING RATING Accessible Outside Class... RATING SAVED
+SAVING RATING Generates Enthusiasm... RATING SAVED
+SAVING RATING Facilitates Discussion & Encourages Participation... RATING SAVED
+SAVING REASON Pre-Med Requirement... REASON SAVED
+SAVING REASON Concentration or Department Requirement... REASON SAVED
+SAVING REASON Expository Writing Requirement... REASON SAVED
+SAVING REASON Secondary Field or Language Citation Requirement... REASON SAVED
+SAVING REASON Elective... REASON SAVED
+SAVING REASON Undergraduate Core or General Education Requirement... REASON SAVED
+SAVING REASON Foreign Language Requirement... REASON SAVED
+
+23. SCRAPING AFRAMER 137: Literature and Its Cultural `Others' - America, Africa and the Caribbean, 1950s-80s (31456)
+PARSING NEW TABLE
+Course Overall: 3.67
+[0, 0, 1, 2, 0]
+Materials: 4.0
+[0, 0, 1, 1, 1]
+Assignments: 4.67
+[0, 0, 0, 1, 2]
+Feedback: 3.33
+[0, 1, 0, 2, 0]
+Section: None
+PARSING NEW TABLE
+Workload: 2.0
+[0, 3, 0, 0, 0]
+PARSING NEW TABLE
+Difficulty: [0, 2, 1, 0, 0]
+PARSING REASONS
+Elective: 1
+Concentration or Department Requirement: 3
+Secondary Field or Language Citation Requirement: 0
+Undergraduate Core or General Education Requirement: 0
+Expository Writing Requirement: 0
+Foreign Language Requirement: 0
+Pre-Med Requirement: 0
+GETTING COMMENTS
+GETTING COMMENTS WITH &qid=1487
+FOUND INSTRUCTOR Biodun Jeyifo (f9a42e26a96ea36da5bb287fffb0044a)
+PARSING NEW TABLE
+Instructor Overall: 4.0
+[0, 0, 1, 1, 1]
+Effective Lectures or Presentations: 4.33
+[0, 0, 1, 0, 2]
+Accessible Outside Class: 3.0
+[0, 1, 0, 1, 0]
+Generates Enthusiasm: 4.0
+[0, 0, 1, 1, 1]
+Facilitates Discussion & Encourages Participation: 3.67
+[0, 1, 0, 1, 1]
+(1062, "Duplicate entry 'AFRAMER' for key 'abbreviation'")
+SAVING FIELD AFRAMER... FIELD ALREADY EXISTS
+SAVING COURSE... COURSE SAVED
+SAVING COURSE INSTANCE... COURSE INSTANCE SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING RATING Course Overall... RATING SAVED
+SAVING RATING Materials... RATING SAVED
+SAVING RATING Assignments... RATING SAVED
+SAVING RATING Feedback... RATING SAVED
+SAVING RATING Workload... RATING SAVED
+SAVING RATING Difficulty... RATING SAVED
+SAVING INSTRUCTOR Biodun Jeyifo (f9a42e26a96ea36da5bb287fffb0044a)... INSTRUCTOR SAVED
+SAVING INSTRUCTOR COURSE INSTANCE RELATION... INSTRUCTOR COURSE INSTANCE RELATION SAVED
+SAVING RATING Instructor Overall... RATING SAVED
+SAVING RATING Effective Lectures or Presentations... RATING SAVED
+SAVING RATING Accessible Outside Class... RATING SAVED
+SAVING RATING Generates Enthusiasm... RATING SAVED
+SAVING RATING Facilitates Discussion & Encourages Participation... RATING SAVED
+SAVING REASON Pre-Med Requirement... REASON SAVED
+SAVING REASON Concentration or Department Requirement... REASON SAVED
+SAVING REASON Expository Writing Requirement... REASON SAVED
+SAVING REASON Secondary Field or Language Citation Requirement... REASON SAVED
+SAVING REASON Elective... REASON SAVED
+SAVING REASON Undergraduate Core or General Education Requirement... REASON SAVED
+SAVING REASON Foreign Language Requirement... REASON SAVED
+
+24. SCRAPING AFRAMER 139x: Slavery and Emancipation in the Atlantic World (32081)
+PARSING NEW TABLE
+Course Overall: 4.5
+[0, 0, 0, 2, 2]
+Materials: 5.0
+[0, 0, 0, 0, 4]
+Assignments: 4.5
+[0, 0, 0, 2, 2]
+Feedback: 3.75
+[0, 1, 0, 2, 1]
+Section: 5.0
+[0, 0, 0, 0, 1]
+Pointed to Dissertation Topic or Research Lab: 4.5
+[0, 0, 0, 1, 1]
+Helped Develop Research Skills: 3.5
+[0, 0, 1, 1, 0]
+Could be Developed into Talks or Publications: 5.0
+[0, 0, 0, 0, 2]
+Helped Prepare for Generals: 5.0
+[0, 0, 0, 0, 2]
+PARSING NEW TABLE
+Workload: 2.25
+[1, 1, 2, 0, 0]
+PARSING NEW TABLE
+Difficulty: [0, 0, 4, 0, 0]
+PARSING REASONS
+Elective: 1
+Concentration or Department Requirement: 2
+Secondary Field or Language Citation Requirement: 1
+Undergraduate Core or General Education Requirement: 0
+Expository Writing Requirement: 0
+Foreign Language Requirement: 0
+Pre-Med Requirement: 0
+GETTING COMMENTS
+GETTING COMMENTS WITH &qid=1487
+FOUND INSTRUCTOR Kellie C Jackson (6ef437a87b48f3f27d48ba0144ef3003)
+PARSING NEW TABLE
+Instructor Overall: 4.75
+[0, 0, 0, 1, 3]
+Effective Lectures or Presentations: 4.33
+[0, 0, 1, 0, 2]
+Accessible Outside Class: 5.0
+[0, 0, 0, 0, 4]
+Generates Enthusiasm: 5.0
+[0, 0, 0, 0, 4]
+Facilitates Discussion & Encourages Participation: 5.0
+[0, 0, 0, 0, 4]
+(1062, "Duplicate entry 'AFRAMER' for key 'abbreviation'")
+SAVING FIELD AFRAMER... FIELD ALREADY EXISTS
+SAVING COURSE... COURSE SAVED
+SAVING COURSE INSTANCE... COURSE INSTANCE SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING COMMENT... COMMENT SAVED
+SAVING RATING Course Overall... RATING SAVED
+SAVING RATING Materials... RATING SAVED
+SAVING RATING Assignments... RATING SAVED
+SAVING RATING Feedback... RATING SAVED
+SAVING RATING Section... RATING SAVED
+SAVING RATING Pointed to Dissertation Topic or Research Lab... RATING SAVED
+SAVING RATING Helped Develop Research Skills... RATING SAVED
+SAVING RATING Could be Developed into Talks or Publications... RATING SAVED
+SAVING RATING Helped Prepare for Generals... RATING SAVED
+SAVING RATING Workload... RATING SAVED
+SAVING RATING Difficulty... RATING SAVED
+SAVING INSTRUCTOR Kellie C Jackson (6ef437a87b48f3f27d48ba0144ef3003)... INSTRUCTOR SAVED
+SAVING INSTRUCTOR COURSE INSTANCE RELATION... INSTRUCTOR COURSE INSTANCE RELATION SAVED
+SAVING RATING Instructor Overall... RATING SAVED
+SAVING RATING Effective Lectures or Presentations... RATING SAVED
+SAVING RATING Accessible Outside Class... RATING SAVED
+SAVING RATING Generates Enthusiasm... RATING SAVED
+SAVING RATING Facilitates Discussion & Encourages Participation... RATING SAVED
+SAVING REASON Pre-Med Requirement... REASON SAVED
+SAVING REASON Concentration or Department Requirement... REASON SAVED
+SAVING REASON Expository Writing Requirement... REASON SAVED
+SAVING REASON Secondary Field or Language Citation Requirement... REASON SAVED
+SAVING REASON Elective... REASON SAVED
+SAVING REASON Undergraduate Core or General Education Requirement... REASON SAVED
+SAVING REASON Foreign Language Requirement... REASON SAVED
+
+25. SCRAPING AFRAMER 183x: Queer of Color Theory (31906)
+PARSING NEW TABLE
+Course Overall: 4.5
+[0, 0, 0, 6, 6]
+Materials: 4.58
+[0, 0, 1, 3, 8]
+Assignments: 4.36
+[0, 0, 1, 5, 5]
+Feedback: 4.42

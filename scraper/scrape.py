@@ -16,7 +16,7 @@ import sys
 import urllib2
 
 from models import *
-import settings
+from qscraper import settings
 
 # Set up some constants
 DATA_DIR = 'scraper/data/'
