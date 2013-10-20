@@ -55,39 +55,45 @@ Josh'''
 # Main scraping script.  Creates opener, iterates through years/terms, 
 # and calls scrape_course_list on each department listed
 def scrape(cookie):
-    # Clear the database
-    truncate_db()
-    clear_logs()
+    try:
+        # Clear the database
+        truncate_db()
+        clear_logs()
 
-    # Set up cookies
-    opener = urllib2.build_opener()
-    opener.addheaders.append(('Cookie', 'JSESSIONID=' + cookie))
+        # Set up cookies
+        opener = urllib2.build_opener()
+        opener.addheaders.append(('Cookie', 'JSESSIONID=' + cookie))
 
-    # Just one year for now
-    years = range(2006, 2013)
-    years.reverse()
-    # Term 1 = Fall, term 2 = Spring
-    terms = [1, 2]
+        # Just one year for now
+        years = range(2006, 2013)
+        years.reverse()
+        # Term 1 = Fall, term 2 = Spring
+        terms = [1, 2]
 
-    counter = 1
-    # For each term
-    for year in years:
-        for term in terms:
-            path = "list?yearterm={0}_{1}".format(year, term) 
-            dept_list_html = get_data_from_path(opener, path)
+        counter = 1
+        # For each term
+        for year in years:
+            for term in terms:
+                path = "list?yearterm={0}_{1}".format(year, term) 
+                dept_list_html = get_data_from_path(opener, path)
 
-            # Get department names from HTML
-            tree = etree.parse(StringIO(dept_list_html), etree.HTMLParser())
-            dept_xpath = '''//div[@class="displayed_courses"]
-                            //span[@class="course-block-title"]'''
-            depts_elts = tree.xpath(dept_xpath)
-            depts = map(lambda x: x.get('title'), depts_elts)
+                # Get department names from HTML
+                tree = etree.parse(StringIO(dept_list_html), etree.HTMLParser())
+                dept_xpath = '''//div[@class="displayed_courses"]
+                                //span[@class="course-block-title"]'''
+                depts_elts = tree.xpath(dept_xpath)
+                depts = map(lambda x: x.get('title'), depts_elts)
 
-            # Get course list
-            counter = scrape_course_list(opener, depts, term, year,
-                counter)
+                # Get course list
+                counter = scrape_course_list(opener, depts, term, year,
+                    counter)
 
-    log('DONE!')
+        log('DONE!')
+    except Exception as e:
+        mail.send_mail('scraper failed',
+            '{0}: {1}'.format(e.__class__, e.strerror), 
+            settings.FROM_EMAIL, settings.ALERT_RECIPIENTS, 
+            fail_silently=True)
 
 # Save info about every course in a semester.  Scrapes rudimentary info
 # about the course, then passes it to scrape_course_data to find the rest
@@ -501,7 +507,7 @@ def get_data_from_path(opener, path):
         # Check to see if cookie is still good
         if PIN_LOGIN_REGEX.findall(contents):
             log_error('Cookie no longer valid', 'GENERAL')
-            mail.send_mail('scraper failed :(', 'Your cookie expried :(', 
+            mail.send_mail('scraper failed', 'Your cookie expried.', 
                 settings.FROM_EMAIL, settings.ALERT_RECIPIENTS, fail_silently=True)
             sys.exit(1)
             return
