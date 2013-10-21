@@ -91,7 +91,7 @@ def scrape(cookie):
         log('DONE!')
     except Exception as e:
         mail.send_mail('scraper failed',
-            '{0}: {1}'.format(e.__class__, e.strerror), 
+            '{0}: {1}'.format(e.__class__, e), 
             settings.FROM_EMAIL, settings.ALERT_RECIPIENTS, 
             fail_silently=True)
 
