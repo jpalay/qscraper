@@ -92,10 +92,6 @@ def scrape(cookie):
         log('DONE!')
     except Exception as e:
         log_error('{0} - {1}'.format(e.__class__, e), 'GENERAL')
-        mail.send_mail('scraper failed',
-            '{0}: {1}'.format(e.__class__, e), 
-            settings.FROM_EMAIL, settings.ALERT_RECIPIENTS, 
-            fail_silently=True)
 
 # Save info about every course in a semester.  Scrapes rudimentary info
 # about the course, then passes it to scrape_course_data to find the rest
@@ -502,7 +498,11 @@ def get_data_from_path(opener, path):
             raise IOError
     except IOError:
         url = BASE_URL + path
-        contents = opener.open(url).read()
+        try:
+            contents = opener.open(url).read()
+        except urllib2.URLError as e:
+            log_error('{0} - {1}: trying again'.format(e.__class__, e), 'GENERAL')
+            get_data_from_path(opener, path)
         contents = contents.decode('utf-8')\
             .encode('ascii', 'ignore')
 
