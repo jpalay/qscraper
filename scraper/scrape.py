@@ -13,6 +13,7 @@ import os
 import re
 from StringIO import StringIO
 import sys
+import time
 import urllib2
 
 from models import *
@@ -90,6 +91,7 @@ def scrape(cookie):
 
         log('DONE!')
     except Exception as e:
+        log_error('{0} - {1}'.format(e.__class__, e), 'GENERAL')
         mail.send_mail('scraper failed',
             '{0}: {1}'.format(e.__class__, e), 
             settings.FROM_EMAIL, settings.ALERT_RECIPIENTS, 
@@ -305,14 +307,14 @@ def parse_reasons(table):
 def add_score_breakdown(opener, rating, histogram_url, course_id):
     html = get_data_from_path(opener, histogram_url)
     if FAILED_HISTOGRAM_REGEX.findall(html):
-        uncache(path)
+        uncache(histogram_url)
         log_error("Score breakdown page unexpectedly displays no breakdown " +\
                   "(path: {0})".format(histogram_url), course_id)
         time.sleep(600) # wait 10 minutes before trying again
         add_score_breakdown(opener, rating, histogram_url, course_id)
         return
     if not HISTOGRAM_REGEX.findall(html)[0]:
-        uncache(path)
+        uncache(histogram_url)
         log_error("Histogram regex failed to parse histogram " +\
                   "(path: {0})".format(histogram_url), course_id)
         time.sleep(600) # wait 10 minutes before trying again
