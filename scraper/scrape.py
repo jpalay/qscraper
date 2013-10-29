@@ -14,6 +14,7 @@ import re
 from StringIO import StringIO
 import sys
 import time
+import traceback
 import urllib2
 
 from models import *
@@ -91,7 +92,7 @@ def scrape(cookie):
 
         log('DONE!')
     except Exception as e:
-        log_error('{0} - {1}'.format(e.__class__, e), 'GENERAL')
+        log_error('{0} - {1}\n{2}'.format(e.__class__, e, traceback.format_exc()), 'GENERAL')
 
 # Save info about every course in a semester.  Scrapes rudimentary info
 # about the course, then passes it to scrape_course_data to find the rest
@@ -302,18 +303,18 @@ def parse_reasons(table):
 # Adds the score breakdown to the rating dict
 def add_score_breakdown(opener, rating, histogram_url, course_id):
     html = get_data_from_path(opener, histogram_url)
-    if FAILED_HISTOGRAM_REGEX.findall(html):
+    if FAILED_HISTOGRAM_REGEX.findall(html) or len(HISTOGRAM_REGEX.findall(html)) == 0 :
         uncache(histogram_url)
         log_error("Score breakdown page unexpectedly displays no breakdown " +\
                   "(path: {0})".format(histogram_url), course_id)
-        time.sleep(600) # wait 10 minutes before trying again
+        time.sleep(60) # wait 1 minute before trying again
         add_score_breakdown(opener, rating, histogram_url, course_id)
         return
     if not HISTOGRAM_REGEX.findall(html)[0]:
         uncache(histogram_url)
         log_error("Histogram regex failed to parse histogram " +\
                   "(path: {0})".format(histogram_url), course_id)
-        time.sleep(600) # wait 10 minutes before trying again
+        time.sleep(60) # wait 1 minute before trying again
         add_score_breakdown(opener, rating, histogram_url, course_id)
         return
     scores = HISTOGRAM_REGEX.findall(html)[0]
@@ -502,7 +503,7 @@ def get_data_from_path(opener, path):
             contents = opener.open(url).read()
         except urllib2.URLError as e:
             log_error('{0} - {1}: trying again'.format(e.__class__, e), 'GENERAL')
-            get_data_from_path(opener, path)
+            return get_data_from_path(opener, path)
         contents = contents.decode('utf-8')\
             .encode('ascii', 'ignore')
 

@@ -156,6 +156,7 @@ LOGGING = {
     }
 }
 
+EMAIL_HOST='localhost'
 FROM_EMAIL = ''
 ALERT_RECIPIENTS = []
 
